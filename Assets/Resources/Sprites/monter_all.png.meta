@@ -1,0 +1,450 @@
+fileFormatVersion: 2
+guid: 07262cfc5ad629c448cd8189ef019550
+timeCreated: 1458788199
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: monter_all_0
+    21300002: monter_all_1
+    21300004: monter_all_2
+    21300006: monter_all_3
+    21300008: monter_all_4
+    21300010: monter_all_5
+    21300012: monter_all_6
+    21300014: monter_all_7
+    21300016: monter_all_8
+    21300018: monter_all_9
+    21300020: monter_all_10
+    21300022: monter_all_11
+    21300024: monter_all_12
+    21300026: monter_all_13
+    21300028: monter_all_14
+    21300030: monter_all_15
+    21300032: monter_all_16
+    21300034: monter_all_17
+    21300036: monter_all_18
+    21300038: monter_all_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: monter_all_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 411
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 44}
+        - {x: -31.5, y: 44}
+        - {x: -40.5, y: 20}
+        - {x: -40.5, y: -44}
+        - {x: 40.5, y: -44}
+        - {x: 40.5, y: 9}
+        - {x: 32.5, y: 39}
+    - name: monter_all_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 408
+        width: 81
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 45.899994}
+        - {x: -40.5, y: 28.899994}
+        - {x: -40.5, y: -35.100006}
+        - {x: -26.5, y: -44.100006}
+        - {x: 40.5, y: -44.100006}
+        - {x: 40.5, y: 18.899994}
+        - {x: 13.5, y: 45.899994}
+    - name: monter_all_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 411
+        width: 114
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 38}
+        - {x: -57, y: -30}
+        - {x: -50, y: -45}
+        - {x: 32, y: -45}
+        - {x: 57, y: -15}
+        - {x: 57, y: 38}
+    - name: monter_all_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 411
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 29}
+        - {x: 31, y: 25}
+        - {x: 31, y: 15}
+        - {x: 29, y: 30}
+        - {x: 31, y: 40}
+        - {x: 24, y: 45}
+        - {x: -32, y: 45}
+        - {x: -35, y: 44}
+        - {x: -54, y: 14}
+        - {x: -54, y: -28}
+        - {x: -48, y: -45}
+        - {x: 30, y: -45}
+        - {x: 54, y: -16}
+        - {x: 54, y: -4}
+        - {x: 45, y: 35}
+    - name: monter_all_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 318
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 33}
+        - {x: -43.5, y: 27}
+        - {x: -43.5, y: -32}
+        - {x: -39.5, y: -33}
+        - {x: 43.5, y: -33}
+        - {x: 43.5, y: 27}
+        - {x: 21.5, y: 33}
+    - name: monter_all_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 318
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 29}
+        - {x: -30.5, y: 29}
+        - {x: -43.5, y: 11}
+        - {x: -43.5, y: -33}
+        - {x: 43.5, y: -33}
+        - {x: 43.5, y: -9}
+        - {x: 40.5, y: 5}
+    - name: monter_all_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 321
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 25.5}
+        - {x: -28.5, y: -17.5}
+        - {x: -27.5, y: -25.5}
+        - {x: 28.5, y: -25.5}
+        - {x: 28.5, y: 25.5}
+    - name: monter_all_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 318
+        width: 57
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 24.244995}
+        - {x: -16.5, y: 24.244995}
+        - {x: -28.5, y: 16.244995}
+        - {x: -28.5, y: -25.755005}
+        - {x: 28.5, y: -25.755005}
+        - {x: 28.5, y: 12.244995}
+        - {x: 14.5, y: 23.244995}
+    - name: monter_all_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 222
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 33.5}
+        - {x: -36, y: 21.5}
+        - {x: -36, y: -40.5}
+        - {x: 36, y: -40.5}
+        - {x: 36, y: 27.5}
+        - {x: 20, y: 33.5}
+    - name: monter_all_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 222
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 40.5}
+        - {x: -36, y: 24.5}
+        - {x: -36, y: -40.5}
+        - {x: 34, y: -40.5}
+        - {x: 36, y: -38.5}
+        - {x: 36, y: 29.5}
+        - {x: 31, y: 40.5}
+    - name: monter_all_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 225
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 34.5}
+        - {x: -34.5, y: 34.5}
+        - {x: -40.5, y: 19.5}
+        - {x: -40.5, y: -12.5}
+        - {x: -32.5, y: -24.5}
+        - {x: -20.5, y: -34.5}
+        - {x: 7.5, y: -34.5}
+        - {x: 40.5, y: -17.5}
+        - {x: 40.5, y: 14.5}
+        - {x: 26.5, y: 27.5}
+    - name: monter_all_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 225
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 34.5}
+        - {x: -40.5, y: 30.5}
+        - {x: -40.5, y: -11.5}
+        - {x: -33.5, y: -17.5}
+        - {x: -9.5, y: -34.5}
+        - {x: 7.5, y: -34.5}
+        - {x: 40.5, y: -15.5}
+        - {x: 40.5, y: 34.5}
+    - name: monter_all_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 29.5}
+        - {x: 28.5, y: 40.5}
+        - {x: -20.5, y: 40.5}
+        - {x: -34.5, y: 29.5}
+        - {x: -34.5, y: -40.5}
+        - {x: 25.5, y: -40.5}
+        - {x: 30.5, y: -35.5}
+        - {x: 30.5, y: -30.5}
+        - {x: 34.5, y: -27.5}
+    - name: monter_all_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 120
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 39.5}
+        - {x: -4.5, y: 39.5}
+        - {x: -28.5, y: 3.5}
+        - {x: -28.5, y: -40.5}
+        - {x: 28.5, y: -40.5}
+        - {x: 28.5, y: 0.5}
+        - {x: 25.5, y: 22.5}
+    - name: monter_all_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 120
+        width: 105
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -22}
+        - {x: 52.5, y: 4}
+        - {x: 52.5, y: 31}
+        - {x: 38.5, y: 39}
+        - {x: -52.5, y: 39}
+        - {x: -52.5, y: -39}
+        - {x: 33.5, y: -39}
+        - {x: 51.5, y: -32}
+        - {x: 48.5, y: -24}
+        - {x: 46.5, y: -22}
+    - name: monter_all_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 123
+        width: 105
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 29}
+        - {x: -37.5, y: 29}
+        - {x: -48.5, y: 24}
+        - {x: -52.5, y: 20}
+        - {x: -52.5, y: -38}
+        - {x: -45.5, y: -39}
+        - {x: 42.5, y: -39}
+        - {x: 51.5, y: -32}
+        - {x: 52.5, y: -28}
+        - {x: 52.5, y: 26}
+    - name: monter_all_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 21
+        width: 84
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 33}
+        - {x: -42, y: -31}
+        - {x: -24, y: -33}
+        - {x: 33, y: -33}
+        - {x: 42, y: -28}
+        - {x: 42, y: 7}
+        - {x: 21, y: 33}
+    - name: monter_all_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 21
+        width: 84
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 29}
+        - {x: -42, y: -33}
+        - {x: 42, y: -33}
+        - {x: 42, y: 4}
+        - {x: 32, y: 29}
+    - name: monter_all_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 27
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34.5}
+        - {x: -28.5, y: 30.5}
+        - {x: -28.5, y: -34.5}
+        - {x: 28.5, y: -34.5}
+        - {x: 28.5, y: 23.5}
+        - {x: 20.5, y: 34.5}
+    - name: monter_all_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 27
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27.5}
+        - {x: -14, y: 26.5}
+        - {x: -27, y: 11.5}
+        - {x: -27, y: -34.5}
+        - {x: 27, y: -34.5}
+        - {x: 27, y: 4.5}
+        - {x: 13, y: 27.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2795 @@
+fileFormatVersion: 2
+guid: 8ee3a63e333b905488fc00c20d5974b6
+timeCreated: 1459404060
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rpg_all_motion_0
+    21300002: rpg_all_motion_1
+    21300004: rpg_all_motion_2
+    21300006: rpg_all_motion_3
+    21300008: rpg_all_motion_4
+    21300010: rpg_all_motion_5
+    21300012: rpg_all_motion_6
+    21300014: rpg_all_motion_7
+    21300016: rpg_all_motion_307
+    21300018: rpg_all_motion_9
+    21300020: rpg_all_motion_10
+    21300022: rpg_all_motion_11
+    21300024: rpg_all_motion_12
+    21300026: rpg_all_motion_13
+    21300028: rpg_all_motion_14
+    21300030: rpg_all_motion_15
+    21300032: rpg_all_motion_16
+    21300034: rpg_all_motion_17
+    21300036: rpg_all_motion_18
+    21300038: rpg_all_motion_19
+    21300040: rpg_all_motion_20
+    21300042: rpg_all_motion_21
+    21300044: rpg_all_motion_22
+    21300046: rpg_all_motion_23
+    21300048: rpg_all_motion_24
+    21300050: rpg_all_motion_25
+    21300052: rpg_all_motion_26
+    21300054: rpg_all_motion_27
+    21300056: rpg_all_motion_28
+    21300058: rpg_all_motion_29
+    21300060: rpg_all_motion_30
+    21300062: rpg_all_motion_31
+    21300064: rpg_all_motion_32
+    21300066: rpg_all_motion_33
+    21300068: rpg_all_motion_34
+    21300070: rpg_all_motion_35
+    21300072: rpg_all_motion_36
+    21300074: rpg_all_motion_37
+    21300076: rpg_all_motion_38
+    21300078: rpg_all_motion_39
+    21300080: rpg_all_motion_40
+    21300082: rpg_all_motion_41
+    21300084: rpg_all_motion_42
+    21300086: rpg_all_motion_43
+    21300088: rpg_all_motion_44
+    21300090: rpg_all_motion_45
+    21300092: rpg_all_motion_46
+    21300094: rpg_all_motion_47
+    21300096: rpg_all_motion_48
+    21300098: rpg_all_motion_49
+    21300100: rpg_all_motion_50
+    21300102: rpg_all_motion_51
+    21300104: rpg_all_motion_52
+    21300106: rpg_all_motion_53
+    21300108: rpg_all_motion_54
+    21300110: rpg_all_motion_55
+    21300112: rpg_all_motion_56
+    21300114: rpg_all_motion_57
+    21300116: rpg_all_motion_58
+    21300118: rpg_all_motion_59
+    21300120: rpg_all_motion_60
+    21300122: rpg_all_motion_61
+    21300124: rpg_all_motion_62
+    21300126: rpg_all_motion_63
+    21300128: rpg_all_motion_64
+    21300130: rpg_all_motion_65
+    21300132: rpg_all_motion_66
+    21300134: rpg_all_motion_67
+    21300136: rpg_all_motion_68
+    21300138: rpg_all_motion_69
+    21300140: rpg_all_motion_70
+    21300142: rpg_all_motion_71
+    21300144: rpg_all_motion_72
+    21300146: rpg_all_motion_73
+    21300148: rpg_all_motion_74
+    21300150: rpg_all_motion_75
+    21300152: rpg_all_motion_76
+    21300154: rpg_all_motion_77
+    21300156: rpg_all_motion_78
+    21300158: rpg_all_motion_79
+    21300160: rpg_all_motion_80
+    21300162: rpg_all_motion_81
+    21300164: rpg_all_motion_82
+    21300166: rpg_all_motion_83
+    21300168: rpg_all_motion_84
+    21300170: rpg_all_motion_85
+    21300172: rpg_all_motion_86
+    21300174: rpg_all_motion_87
+    21300176: rpg_all_motion_88
+    21300178: rpg_all_motion_89
+    21300180: rpg_all_motion_90
+    21300182: rpg_all_motion_91
+    21300184: rpg_all_motion_92
+    21300186: rpg_all_motion_93
+    21300188: rpg_all_motion_94
+    21300190: rpg_all_motion_95
+    21300192: rpg_all_motion_96
+    21300194: rpg_all_motion_97
+    21300196: rpg_all_motion_98
+    21300198: rpg_all_motion_99
+    21300200: rpg_all_motion_100
+    21300202: rpg_all_motion_101
+    21300204: rpg_all_motion_102
+    21300206: rpg_all_motion_103
+    21300208: rpg_all_motion_104
+    21300210: rpg_all_motion_105
+    21300212: rpg_all_motion_106
+    21300214: rpg_all_motion_107
+    21300216: rpg_all_motion_108
+    21300218: rpg_all_motion_109
+    21300220: rpg_all_motion_110
+    21300222: rpg_all_motion_111
+    21300224: rpg_all_motion_112
+    21300226: rpg_all_motion_113
+    21300228: rpg_all_motion_114
+    21300230: rpg_all_motion_115
+    21300232: rpg_all_motion_116
+    21300234: rpg_all_motion_117
+    21300236: rpg_all_motion_118
+    21300238: rpg_all_motion_119
+    21300240: rpg_all_motion_120
+    21300242: rpg_all_motion_121
+    21300244: rpg_all_motion_122
+    21300246: rpg_all_motion_123
+    21300248: rpg_all_motion_124
+    21300250: rpg_all_motion_125
+    21300252: rpg_all_motion_126
+    21300254: rpg_all_motion_127
+    21300256: rpg_all_motion_128
+    21300258: rpg_all_motion_129
+    21300260: rpg_all_motion_130
+    21300262: rpg_all_motion_131
+    21300264: rpg_all_motion_132
+    21300266: rpg_all_motion_133
+    21300268: rpg_all_motion_134
+    21300270: rpg_all_motion_135
+    21300272: rpg_all_motion_136
+    21300274: rpg_all_motion_137
+    21300276: rpg_all_motion_138
+    21300278: rpg_all_motion_139
+    21300280: rpg_all_motion_140
+    21300282: rpg_all_motion_141
+    21300284: rpg_all_motion_142
+    21300286: rpg_all_motion_143
+    21300288: rpg_all_motion_144
+    21300290: rpg_all_motion_145
+    21300292: rpg_all_motion_146
+    21300294: rpg_all_motion_147
+    21300296: rpg_all_motion_148
+    21300298: rpg_all_motion_149
+    21300300: rpg_all_motion_150
+    21300302: rpg_all_motion_151
+    21300304: rpg_all_motion_152
+    21300306: rpg_all_motion_153
+    21300308: rpg_all_motion_154
+    21300310: rpg_all_motion_155
+    21300312: rpg_all_motion_156
+    21300314: rpg_all_motion_157
+    21300316: rpg_all_motion_158
+    21300318: rpg_all_motion_159
+    21300320: rpg_all_motion_160
+    21300322: rpg_all_motion_161
+    21300324: rpg_all_motion_162
+    21300326: rpg_all_motion_163
+    21300328: rpg_all_motion_164
+    21300330: rpg_all_motion_165
+    21300332: rpg_all_motion_166
+    21300334: rpg_all_motion_167
+    21300336: rpg_all_motion_168
+    21300338: rpg_all_motion_169
+    21300340: rpg_all_motion_170
+    21300342: rpg_all_motion_171
+    21300344: rpg_all_motion_172
+    21300346: rpg_all_motion_173
+    21300348: rpg_all_motion_174
+    21300350: rpg_all_motion_175
+    21300352: rpg_all_motion_176
+    21300354: rpg_all_motion_177
+    21300356: rpg_all_motion_178
+    21300358: rpg_all_motion_179
+    21300360: rpg_all_motion_180
+    21300362: rpg_all_motion_181
+    21300364: rpg_all_motion_182
+    21300366: rpg_all_motion_183
+    21300368: rpg_all_motion_184
+    21300370: rpg_all_motion_185
+    21300372: rpg_all_motion_186
+    21300374: rpg_all_motion_187
+    21300376: rpg_all_motion_188
+    21300378: rpg_all_motion_189
+    21300380: rpg_all_motion_190
+    21300382: rpg_all_motion_191
+    21300384: rpg_all_motion_192
+    21300386: rpg_all_motion_193
+    21300388: rpg_all_motion_194
+    21300390: rpg_all_motion_195
+    21300392: rpg_all_motion_196
+    21300394: rpg_all_motion_197
+    21300396: rpg_all_motion_198
+    21300398: rpg_all_motion_199
+    21300400: rpg_all_motion_200
+    21300402: rpg_all_motion_201
+    21300404: rpg_all_motion_202
+    21300406: rpg_all_motion_203
+    21300408: rpg_all_motion_204
+    21300410: rpg_all_motion_205
+    21300412: rpg_all_motion_206
+    21300414: rpg_all_motion_207
+    21300416: rpg_all_motion_208
+    21300418: rpg_all_motion_209
+    21300420: rpg_all_motion_210
+    21300422: rpg_all_motion_211
+    21300424: rpg_all_motion_212
+    21300426: rpg_all_motion_213
+    21300428: rpg_all_motion_214
+    21300430: rpg_all_motion_215
+    21300432: rpg_all_motion_216
+    21300434: rpg_all_motion_217
+    21300436: rpg_all_motion_218
+    21300438: rpg_all_motion_219
+    21300440: rpg_all_motion_220
+    21300442: rpg_all_motion_221
+    21300444: rpg_all_motion_222
+    21300446: rpg_all_motion_223
+    21300448: rpg_all_motion_224
+    21300450: rpg_all_motion_225
+    21300452: rpg_all_motion_226
+    21300454: rpg_all_motion_227
+    21300456: rpg_all_motion_228
+    21300458: rpg_all_motion_229
+    21300460: rpg_all_motion_230
+    21300462: rpg_all_motion_231
+    21300464: rpg_all_motion_232
+    21300466: rpg_all_motion_233
+    21300468: rpg_all_motion_234
+    21300470: rpg_all_motion_235
+    21300472: rpg_all_motion_236
+    21300474: rpg_all_motion_237
+    21300476: rpg_all_motion_238
+    21300478: rpg_all_motion_239
+    21300480: rpg_all_motion_240
+    21300482: rpg_all_motion_241
+    21300484: rpg_all_motion_242
+    21300486: rpg_all_motion_243
+    21300488: rpg_all_motion_244
+    21300490: rpg_all_motion_245
+    21300492: rpg_all_motion_246
+    21300494: rpg_all_motion_247
+    21300496: rpg_all_motion_248
+    21300498: rpg_all_motion_249
+    21300500: rpg_all_motion_250
+    21300502: rpg_all_motion_251
+    21300504: rpg_all_motion_252
+    21300506: rpg_all_motion_253
+    21300508: rpg_all_motion_254
+    21300510: rpg_all_motion_255
+    21300512: rpg_all_motion_256
+    21300514: rpg_all_motion_257
+    21300516: rpg_all_motion_258
+    21300518: rpg_all_motion_259
+    21300520: rpg_all_motion_260
+    21300522: rpg_all_motion_261
+    21300524: rpg_all_motion_262
+    21300526: rpg_all_motion_263
+    21300528: rpg_all_motion_264
+    21300530: rpg_all_motion_265
+    21300532: rpg_all_motion_266
+    21300534: rpg_all_motion_267
+    21300536: rpg_all_motion_268
+    21300538: rpg_all_motion_269
+    21300540: rpg_all_motion_270
+    21300542: rpg_all_motion_271
+    21300544: rpg_all_motion_272
+    21300546: rpg_all_motion_273
+    21300548: rpg_all_motion_274
+    21300550: rpg_all_motion_275
+    21300552: rpg_all_motion_276
+    21300554: rpg_all_motion_277
+    21300556: rpg_all_motion_278
+    21300558: rpg_all_motion_279
+    21300560: rpg_all_motion_280
+    21300562: rpg_all_motion_281
+    21300564: rpg_all_motion_282
+    21300566: rpg_all_motion_283
+    21300568: rpg_all_motion_284
+    21300570: rpg_all_motion_285
+    21300572: rpg_all_motion_286
+    21300574: rpg_all_motion_287
+    21300576: rpg_all_motion_288
+    21300578: rpg_all_motion_289
+    21300580: rpg_all_motion_290
+    21300582: rpg_all_motion_291
+    21300584: rpg_all_motion_292
+    21300586: rpg_all_motion_293
+    21300588: rpg_all_motion_294
+    21300590: rpg_all_motion_295
+    21300592: rpg_all_motion_296
+    21300594: rpg_all_motion_297
+    21300596: rpg_all_motion_298
+    21300598: rpg_all_motion_299
+    21300600: rpg_all_motion_300
+    21300602: rpg_all_motion_301
+    21300604: rpg_all_motion_302
+    21300606: rpg_all_motion_303
+    21300608: rpg_all_motion_304
+    21300610: rpg_all_motion_305
+    21300612: rpg_all_motion_306
+    21300614: rpg_all_motion_307
+    21300616: rpg_all_motion_308
+    21300618: rpg_all_motion_309
+    21300620: rpg_all_motion_310
+    21300622: rpg_all_motion_311
+    21300624: rpg_all_motion_312
+    21300626: rpg_all_motion_313
+    21300628: rpg_all_motion_314
+    21300630: rpg_all_motion_315
+    21300632: rpg_all_motion_316
+    21300634: rpg_all_motion_317
+    21300636: rpg_all_motion_318
+    21300638: rpg_all_motion_319
+    21300640: rpg_all_motion_320
+    21300642: rpg_all_motion_321
+    21300644: rpg_all_motion_322
+    21300646: rpg_all_motion_323
+    21300648: rpg_all_motion_324
+    21300650: rpg_all_motion_325
+    21300652: rpg_all_motion_326
+    21300654: rpg_all_motion_327
+    21300656: rpg_all_motion_328
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rpg_all_motion_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1061
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1061
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1061
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.74057, y: 19.980103}
+        - {x: -16.74057, y: 6.9801025}
+        - {x: -16.74057, y: -14.019897}
+        - {x: -11.74057, y: -19.019897}
+        - {x: 13.25943, y: -19.019897}
+        - {x: 17.25943, y: -15.019897}
+        - {x: 17.25943, y: 4.9801025}
+        - {x: 8.25943, y: 19.980103}
+    - name: rpg_all_motion_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1061
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1061
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.8571167, y: 20.480103}
+        - {x: -19.857117, y: 6.4801025}
+        - {x: -19.857117, y: -6.5198975}
+        - {x: -16.857117, y: -16.519897}
+        - {x: -9.857117, y: -19.519897}
+        - {x: 13.142883, y: -19.519897}
+        - {x: 21.142883, y: -8.519897}
+        - {x: 21.142883, y: 4.4801025}
+        - {x: 13.142883, y: 20.480103}
+    - name: rpg_all_motion_5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1061
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.066406, y: 20.480103}
+        - {x: -10.933594, y: 20.480103}
+        - {x: -18.933594, y: 1.4801025}
+        - {x: -18.933594, y: -3.5198975}
+        - {x: -4.9335938, y: -19.519897}
+        - {x: 12.066406, y: -19.519897}
+        - {x: 14.066406, y: -17.519897}
+        - {x: 20.066406, y: -3.5198975}
+        - {x: 20.066406, y: 10.480103}
+    - name: rpg_all_motion_6
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1061
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.893295, y: 18.980103}
+        - {x: -16.893295, y: 16.980103}
+        - {x: -16.893295, y: -15.019897}
+        - {x: -11.893295, y: -18.019897}
+        - {x: 18.106705, y: -18.019897}
+        - {x: 18.106705, y: 15.980103}
+        - {x: 17.106705, y: 18.980103}
+    - name: rpg_all_motion_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1061
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_22
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 966
+        width: 160
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.77539, y: -18.793823}
+        - {x: 17.77539, y: -21.793823}
+        - {x: 17.77539, y: -27.793823}
+        - {x: 22.77539, y: -30.793823}
+        - {x: 33.77539, y: -30.793823}
+        - {x: 38.77539, y: -29.793823}
+        - {x: 41.77539, y: -25.793823}
+        - {x: 41.77539, y: -20.793823}
+        - {x: 37.77539, y: -18.793823}
+      - - {x: 5.7753906, y: 31.206177}
+        - {x: 5.7753906, y: 25.206177}
+        - {x: 6.7753906, y: 21.206177}
+        - {x: 2.7753906, y: 20.206177}
+        - {x: 1.7753906, y: 21.206177}
+        - {x: 3.7753906, y: 21.206177}
+        - {x: 5.7753906, y: 23.206177}
+        - {x: 5.7753906, y: 31.206177}
+        - {x: -20.22461, y: 31.206177}
+        - {x: -24.22461, y: 20.206177}
+        - {x: -23.22461, y: 10.206177}
+        - {x: -20.22461, y: 6.2061768}
+        - {x: -18.22461, y: 4.2061768}
+        - {x: -19.22461, y: 5.2061768}
+        - {x: -35.22461, y: 6.2061768}
+        - {x: -42.22461, y: 2.2061768}
+        - {x: -42.22461, y: -22.793823}
+        - {x: -14.224609, y: -22.793823}
+        - {x: 25.77539, y: -9.793823}
+        - {x: 25.77539, y: 31.206177}
+    - name: rpg_all_motion_37
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 955
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.92444, y: -27.61502}
+        - {x: 44.92444, y: -30.61502}
+        - {x: 55.92444, y: -30.61502}
+        - {x: 60.92444, y: -29.61502}
+        - {x: 61.92444, y: -27.61502}
+        - {x: 61.92444, y: -18.61502}
+        - {x: 42.92444, y: -18.61502}
+        - {x: 39.92444, y: -19.61502}
+      - - {x: -32.07556, y: 34.38498}
+        - {x: -60.07556, y: 22.38498}
+        - {x: -60.07556, y: -7.6150208}
+        - {x: -55.07556, y: -9.615021}
+        - {x: -32.07556, y: -9.615021}
+        - {x: -23.075562, y: -2.6150208}
+        - {x: -19.075562, y: 7.3849792}
+        - {x: -19.075562, y: 34.38498}
+      - - {x: 32.92444, y: 28.38498}
+        - {x: 32.92444, y: 35.38498}
+        - {x: -3.0755615, y: 35.38498}
+        - {x: -5.0755615, y: 23.38498}
+        - {x: -5.0755615, y: 2.3849792}
+        - {x: 0.9244385, y: -0.61502075}
+        - {x: 24.924438, y: -0.61502075}
+        - {x: 32.92444, y: 6.3849792}
+        - {x: 32.92444, y: 16.38498}
+        - {x: 31.924438, y: 18.38498}
+    - name: rpg_all_motion_52
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 955
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.582397, y: 2.3849792}
+        - {x: 22.582397, y: 4.3849792}
+        - {x: 18.582397, y: 3.3849792}
+        - {x: 12.582397, y: -0.61502075}
+        - {x: 8.582397, y: -1.6150208}
+        - {x: 6.5823975, y: -3.6150208}
+        - {x: 6.5823975, y: -6.6150208}
+        - {x: 6.5823975, y: 0.38497925}
+        - {x: 9.582397, y: 1.3849792}
+        - {x: 11.582397, y: 5.3849792}
+        - {x: 11.582397, y: 7.3849792}
+        - {x: 11.582397, y: 4.3849792}
+        - {x: 13.582397, y: 2.3849792}
+        - {x: 16.582397, y: 2.3849792}
+        - {x: 18.582397, y: 4.3849792}
+        - {x: 19.582397, y: 8.384979}
+        - {x: 16.582397, y: 15.384979}
+        - {x: 15.582397, y: 23.38498}
+        - {x: -11.417603, y: 23.38498}
+        - {x: -21.417603, y: 14.384979}
+        - {x: -22.417603, y: 11.384979}
+        - {x: -22.417603, y: -9.615021}
+        - {x: -14.417603, y: -22.61502}
+        - {x: 1.5823975, y: -22.61502}
+        - {x: 3.5823975, y: -21.61502}
+        - {x: 20.582397, y: -13.615021}
+        - {x: 23.582397, y: -7.6150208}
+    - name: rpg_all_motion_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 955
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 955
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_55
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 955
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.597443, y: 21.38498}
+        - {x: -10.597443, y: 20.38498}
+        - {x: -16.597443, y: 1.3849792}
+        - {x: -16.597443, y: -14.615021}
+        - {x: -6.5974426, y: -20.61502}
+        - {x: 12.402557, y: -20.61502}
+        - {x: 17.402557, y: -18.61502}
+        - {x: 17.402557, y: 10.384979}
+        - {x: 4.4025574, y: 21.38498}
+    - name: rpg_all_motion_56
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 955
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_57
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 956
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.111389, y: 21.914185}
+        - {x: -13.111389, y: 20.914185}
+        - {x: -18.11139, y: 10.914185}
+        - {x: -18.11139, y: -20.085815}
+        - {x: 13.888611, y: -20.085815}
+        - {x: 18.88861, y: -15.085815}
+        - {x: 18.88861, y: 2.9141846}
+        - {x: 1.8886108, y: 21.914185}
+    - name: rpg_all_motion_58
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 955
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.490906, y: 10.384979}
+        - {x: -0.50909424, y: 21.38498}
+        - {x: -12.509094, y: 21.38498}
+        - {x: -14.509094, y: 20.38498}
+        - {x: -19.509094, y: 14.384979}
+        - {x: -19.509094, y: -20.61502}
+        - {x: 2.4909058, y: -20.61502}
+        - {x: 20.490906, y: -15.615021}
+        - {x: 20.490906, y: -4.6150208}
+        - {x: 19.490906, y: -4.6150208}
+    - name: rpg_all_motion_59
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 955
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.760742, y: 21.88498}
+        - {x: -16.760742, y: -21.11502}
+        - {x: 13.239258, y: -21.11502}
+        - {x: 17.239258, y: -20.11502}
+        - {x: 17.239258, y: 15.884979}
+        - {x: 3.2392578, y: 21.88498}
+    - name: rpg_all_motion_73
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 955
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_74
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 955
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_75
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 955
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_76
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 955
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_77
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 955
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.568481, y: 20.88498}
+        - {x: -11.568481, y: 19.88498}
+        - {x: -16.568481, y: 9.884979}
+        - {x: -16.568481, y: -19.11502}
+        - {x: -12.568481, y: -20.11502}
+        - {x: 11.431519, y: -20.11502}
+        - {x: 17.431519, y: -17.11502}
+        - {x: 17.431519, y: 13.884979}
+        - {x: 7.4315186, y: 20.88498}
+    - name: rpg_all_motion_78
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 955
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_79
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 955
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.567963, y: 20.88498}
+        - {x: -16.567963, y: 16.88498}
+        - {x: -16.567963, y: -17.11502}
+        - {x: -13.567963, y: -20.11502}
+        - {x: 10.432037, y: -20.11502}
+        - {x: 17.432037, y: -17.11502}
+        - {x: 17.432037, y: 14.884979}
+        - {x: 4.4320374, y: 20.88498}
+    - name: rpg_all_motion_80
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 955
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_81
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 955
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_101
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 955
+        width: 276
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.974, y: -4.6825256}
+        - {x: -72.974, y: -9.682526}
+        - {x: -72.974, y: -27.682526}
+        - {x: -36.974, y: -27.682526}
+        - {x: -36.974, y: -9.682526}
+        - {x: -54.974, y: -4.6825256}
+      - - {x: 57.026, y: -15.682526}
+        - {x: 52.026, y: -17.682526}
+        - {x: 52.026, y: -25.682526}
+        - {x: 55.026, y: -27.682526}
+        - {x: 74.026, y: -27.682526}
+        - {x: 74.026, y: -18.682526}
+        - {x: 68.026, y: -15.682526}
+      - - {x: -36.974, y: 3.3174744}
+        - {x: -36.974, y: -13.682526}
+        - {x: -22.973999, y: -13.682526}
+        - {x: -22.973999, y: 3.3174744}
+      - - {x: 16.026001, y: 12.317474}
+        - {x: 6.026001, y: 7.3174744}
+        - {x: 6.026001, y: 2.3174744}
+        - {x: 10.026001, y: -1.6825256}
+        - {x: 19.026001, y: -1.6825256}
+        - {x: 21.026001, y: 2.3174744}
+        - {x: 21.026001, y: 11.317474}
+        - {x: 19.026001, y: 12.317474}
+      - - {x: 51.026, y: 23.317474}
+        - {x: 32.026, y: 16.317474}
+        - {x: 31.026001, y: 8.317474}
+        - {x: 31.026001, y: 0.31747437}
+        - {x: 52.026, y: 0.31747437}
+        - {x: 63.026, y: 9.317474}
+        - {x: 63.026, y: 21.317474}
+        - {x: 58.026, y: 23.317474}
+      - - {x: 16.026001, y: 23.317474}
+        - {x: 15.026001, y: 20.317474}
+        - {x: 15.026001, y: 15.317474}
+        - {x: 21.026001, y: 5.3174744}
+        - {x: 28.026001, y: 5.3174744}
+        - {x: 31.026001, y: 7.3174744}
+        - {x: 31.026001, y: 16.317474}
+        - {x: 28.026001, y: 23.317474}
+      - - {x: 4.026001, y: 17.317474}
+        - {x: 1.026001, y: 13.317474}
+        - {x: 1.026001, y: 7.3174744}
+        - {x: 3.026001, y: 6.3174744}
+        - {x: 7.026001, y: 6.3174744}
+        - {x: 10.026001, y: 10.317474}
+        - {x: 10.026001, y: 16.317474}
+        - {x: 9.026001, y: 17.317474}
+      - - {x: -27.973999, y: 19.317474}
+        - {x: -30.973999, y: 15.317474}
+        - {x: -30.973999, y: 10.317474}
+        - {x: -29.973999, y: 9.317474}
+        - {x: -24.973999, y: 9.317474}
+        - {x: -21.973999, y: 11.317474}
+        - {x: -21.973999, y: 16.317474}
+        - {x: -22.973999, y: 19.317474}
+      - - {x: -17.973999, y: 33.317474}
+        - {x: -23.973999, y: 24.317474}
+        - {x: -23.973999, y: 22.317474}
+        - {x: -22.973999, y: 18.317474}
+        - {x: -15.973999, y: 9.317474}
+        - {x: -6.973999, y: 9.317474}
+        - {x: -5.973999, y: 11.317474}
+        - {x: -5.973999, y: 26.317474}
+        - {x: -11.973999, y: 33.317474}
+      - - {x: 29.026001, y: 23.317474}
+        - {x: 28.026001, y: 21.317474}
+        - {x: 28.026001, y: 17.317474}
+        - {x: 30.026001, y: 16.317474}
+        - {x: 34.026, y: 16.317474}
+        - {x: 36.026, y: 17.317474}
+        - {x: 36.026, y: 21.317474}
+        - {x: 33.026, y: 23.317474}
+      - - {x: 25.026001, y: 23.317474}
+        - {x: 34.026, y: 18.317474}
+        - {x: 37.026, y: 17.317474}
+        - {x: 53.026, y: 17.317474}
+        - {x: 53.026, y: 41.317474}
+        - {x: 36.026, y: 41.317474}
+        - {x: 25.026001, y: 36.317474}
+      - - {x: 57.026, y: 24.317474}
+        - {x: 61.026, y: 24.317474}
+        - {x: 61.026, y: 42.317474}
+        - {x: 52.026, y: 42.317474}
+        - {x: 52.026, y: 26.317474}
+    - name: rpg_all_motion_110
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 812
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.240828, y: 20.209534}
+        - {x: -18.240828, y: -7.7904663}
+        - {x: -5.2408276, y: -18.790466}
+        - {x: 17.759172, y: -18.790466}
+        - {x: 19.759172, y: -11.790466}
+        - {x: 19.759172, y: 17.209534}
+        - {x: 14.759172, y: 20.209534}
+    - name: rpg_all_motion_111
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 812
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.667702, y: 21.209534}
+        - {x: -14.667702, y: 20.209534}
+        - {x: -18.667702, y: 7.2095337}
+        - {x: -18.667702, y: -7.7904663}
+        - {x: -6.6677017, y: -19.790466}
+        - {x: 10.332298, y: -19.790466}
+        - {x: 19.332298, y: -6.7904663}
+        - {x: 19.332298, y: 12.209534}
+        - {x: 5.3322983, y: 21.209534}
+    - name: rpg_all_motion_112
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 812
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.477783, y: 21.209534}
+        - {x: -17.477783, y: 18.209534}
+        - {x: -17.477783, y: -19.790466}
+        - {x: 11.522217, y: -19.790466}
+        - {x: 17.522217, y: -16.790466}
+        - {x: 17.522217, y: 18.209534}
+        - {x: 10.522217, y: 21.209534}
+    - name: rpg_all_motion_113
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 812
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.0661469, y: 21.209534}
+        - {x: -15.933853, y: 21.209534}
+        - {x: -16.933853, y: 19.209534}
+        - {x: -16.933853, y: -12.790466}
+        - {x: -7.933853, y: -19.790466}
+        - {x: 11.066147, y: -19.790466}
+        - {x: 14.066147, y: -17.790466}
+        - {x: 17.066147, y: -5.7904663}
+        - {x: 17.066147, y: 14.209534}
+    - name: rpg_all_motion_114
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 812
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5516663, y: 21.209534}
+        - {x: -13.448334, y: 21.209534}
+        - {x: -16.448334, y: 20.209534}
+        - {x: -19.448334, y: 9.209534}
+        - {x: -19.448334, y: -11.790466}
+        - {x: -13.448334, y: -18.790466}
+        - {x: -10.448334, y: -19.790466}
+        - {x: 6.5516663, y: -19.790466}
+        - {x: 10.551666, y: -12.790466}
+        - {x: 19.551666, y: 3.2095337}
+        - {x: 19.551666, y: 12.209534}
+    - name: rpg_all_motion_115
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 812
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.940842, y: 21.209534}
+        - {x: -15.940842, y: 20.209534}
+        - {x: -18.940842, y: 5.2095337}
+        - {x: -18.940842, y: -5.7904663}
+        - {x: -6.9408417, y: -19.790466}
+        - {x: 11.059158, y: -19.790466}
+        - {x: 20.059158, y: -7.7904663}
+        - {x: 20.059158, y: 14.209534}
+        - {x: 7.0591583, y: 21.209534}
+    - name: rpg_all_motion_116
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 812
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.780121, y: 20.209534}
+        - {x: -18.78012, y: 3.2095337}
+        - {x: -18.78012, y: -8.790466}
+        - {x: -9.780121, y: -18.790466}
+        - {x: 12.219879, y: -18.790466}
+        - {x: 20.21988, y: -6.7904663}
+        - {x: 20.21988, y: 10.209534}
+        - {x: 3.2198792, y: 20.209534}
+    - name: rpg_all_motion_117
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 821
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.915009, y: 18.97232}
+        - {x: -16.915009, y: -18.02768}
+        - {x: 10.084991, y: -18.02768}
+        - {x: 18.084991, y: -13.027679}
+        - {x: 18.084991, y: 18.97232}
+    - name: rpg_all_motion_119
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 812
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.896393, y: 21.209534}
+        - {x: -17.896393, y: 4.2095337}
+        - {x: -17.896393, y: -9.790466}
+        - {x: -10.896393, y: -19.790466}
+        - {x: 8.103607, y: -19.790466}
+        - {x: 19.103607, y: -8.790466}
+        - {x: 19.103607, y: 16.209534}
+        - {x: 14.103607, y: 21.209534}
+    - name: rpg_all_motion_120
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 812
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.264862, y: 21.209534}
+        - {x: -15.264862, y: 20.209534}
+        - {x: -17.264862, y: 9.209534}
+        - {x: -17.264862, y: -9.790466}
+        - {x: -8.264862, y: -19.790466}
+        - {x: 13.735138, y: -19.790466}
+        - {x: 17.735138, y: -14.790466}
+        - {x: 17.735138, y: 14.209534}
+        - {x: 10.735138, y: 21.209534}
+    - name: rpg_all_motion_121
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 812
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.191742, y: 21.209534}
+        - {x: -17.191742, y: -9.790466}
+        - {x: -7.191742, y: -19.790466}
+        - {x: 13.808258, y: -19.790466}
+        - {x: 18.808258, y: -6.7904663}
+        - {x: 18.808258, y: 16.209534}
+        - {x: 11.808258, y: 21.209534}
+      - - {x: -17.191742, y: 4.2095337}
+        - {x: -14.191742, y: 5.2095337}
+        - {x: -14.191742, y: 9.209534}
+        - {x: -16.191742, y: 11.209534}
+        - {x: -17.191742, y: 11.209534}
+    - name: rpg_all_motion_122
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 812
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.187866, y: 20.209534}
+        - {x: -19.187866, y: 17.209534}
+        - {x: -19.187866, y: -7.7904663}
+        - {x: -7.187866, y: -18.790466}
+        - {x: 15.812134, y: -18.790466}
+        - {x: 19.812134, y: -9.790466}
+        - {x: 19.812134, y: 14.209534}
+        - {x: 7.812134, y: 20.209534}
+    - name: rpg_all_motion_123
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 812
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.46875, y: 21.209534}
+        - {x: -18.46875, y: 11.209534}
+        - {x: -18.46875, y: -6.7904663}
+        - {x: -8.46875, y: -19.790466}
+        - {x: 14.53125, y: -19.790466}
+        - {x: 19.53125, y: -6.7904663}
+        - {x: 19.53125, y: 15.209534}
+        - {x: 5.53125, y: 21.209534}
+    - name: rpg_all_motion_124
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 812
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.278809, y: 21.209534}
+        - {x: -18.278809, y: 13.209534}
+        - {x: -18.278809, y: -9.790466}
+        - {x: -13.278809, y: -19.790466}
+        - {x: 10.721191, y: -19.790466}
+        - {x: 18.721191, y: -10.790466}
+        - {x: 18.721191, y: 17.209534}
+        - {x: 5.7211914, y: 21.209534}
+    - name: rpg_all_motion_125
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 812
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.381897, y: 21.209534}
+        - {x: -16.618103, y: 21.209534}
+        - {x: -16.618103, y: -11.790466}
+        - {x: -3.618103, y: -19.790466}
+        - {x: 12.381897, y: -19.790466}
+        - {x: 17.381897, y: -18.790466}
+        - {x: 17.381897, y: 18.209534}
+    - name: rpg_all_motion_126
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 812
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.132568, y: 21.209534}
+        - {x: -18.132568, y: -19.790466}
+        - {x: 12.867432, y: -19.790466}
+        - {x: 18.867432, y: -13.790466}
+        - {x: 18.867432, y: 17.209534}
+        - {x: 13.867432, y: 21.209534}
+    - name: rpg_all_motion_135
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 823
+        width: 159
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.939453, y: -14.969269}
+        - {x: 19.939453, y: -18.969269}
+        - {x: 19.939453, y: -24.969269}
+        - {x: 43.939453, y: -24.969269}
+        - {x: 43.939453, y: -16.969269}
+        - {x: 38.939453, y: -14.969269}
+      - - {x: -13.060547, y: 26.030731}
+        - {x: -17.060547, y: 21.030731}
+        - {x: -20.060547, y: 11.030731}
+        - {x: -17.060547, y: 13.030731}
+        - {x: -34.060547, y: 12.030731}
+        - {x: -42.060547, y: 6.030731}
+        - {x: -42.060547, y: -15.969269}
+        - {x: -36.060547, y: -18.969269}
+        - {x: -5.060547, y: -18.969269}
+        - {x: 14.939453, y: -7.969269}
+        - {x: 14.939453, y: 17.030731}
+        - {x: 5.939453, y: 26.030731}
+    - name: rpg_all_motion_138
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 812
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.636719, y: 21.209534}
+        - {x: -22.636719, y: -19.790466}
+        - {x: 19.363281, y: -19.790466}
+        - {x: 23.363281, y: -11.790466}
+        - {x: 23.363281, y: 14.209534}
+        - {x: 9.363281, y: 21.209534}
+    - name: rpg_all_motion_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 830
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_142
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 827
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_145
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 814
+        width: 250
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.915955, y: 3.2679443}
+        - {x: 33.915955, y: 3.2679443}
+        - {x: 27.915955, y: 2.2679443}
+        - {x: 26.915955, y: -1.7320557}
+        - {x: 26.915955, y: -12.732056}
+        - {x: 36.915955, y: -24.732056}
+        - {x: 62.915955, y: -24.732056}
+        - {x: 65.915955, y: -23.732056}
+        - {x: 65.915955, y: -18.732056}
+        - {x: 63.915955, y: -14.732056}
+      - - {x: -46.084045, y: 0.26794434}
+        - {x: -63.084045, y: 0.26794434}
+        - {x: -66.084045, y: -1.7320557}
+        - {x: -66.084045, y: -22.732056}
+        - {x: -64.084045, y: -24.732056}
+        - {x: -31.084045, y: -24.732056}
+        - {x: -29.084045, y: -18.732056}
+        - {x: -29.084045, y: -6.7320557}
+        - {x: -31.084045, y: -3.7320557}
+      - - {x: 5.9159546, y: 5.2679443}
+        - {x: 5.9159546, y: -4.7320557}
+        - {x: 21.915955, y: -4.7320557}
+        - {x: 21.915955, y: 5.2679443}
+    - name: rpg_all_motion_148
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 813
+        width: 203
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.41333, y: -14.761261}
+        - {x: 32.41333, y: -18.761261}
+        - {x: 32.41333, y: -23.761261}
+        - {x: 34.41333, y: -24.761261}
+        - {x: 52.41333, y: -24.761261}
+        - {x: 54.41333, y: -23.761261}
+        - {x: 54.41333, y: -15.761261}
+        - {x: 51.41333, y: -14.761261}
+      - - {x: -33.58667, y: 11.238739}
+        - {x: -50.58667, y: 11.238739}
+        - {x: -53.58667, y: 7.238739}
+        - {x: -53.58667, y: -15.761261}
+        - {x: -46.58667, y: -18.761261}
+        - {x: -25.58667, y: -18.761261}
+        - {x: -18.58667, y: -14.761261}
+        - {x: -18.58667, y: 7.238739}
+      - - {x: 23.41333, y: 24.238739}
+        - {x: 8.41333, y: 24.238739}
+        - {x: 0.41333008, y: 19.238739}
+        - {x: 0.41333008, y: -7.761261}
+        - {x: 19.41333, y: -7.761261}
+        - {x: 30.41333, y: 3.238739}
+        - {x: 30.41333, y: 17.238739}
+      - - {x: -27.58667, y: 24.238739}
+        - {x: -27.58667, y: 8.238739}
+        - {x: -18.58667, y: 8.238739}
+        - {x: -18.58667, y: 24.238739}
+    - name: rpg_all_motion_150
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 812
+        width: 251
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.34009, y: -1.7904663}
+        - {x: -66.34009, y: -3.7904663}
+        - {x: -66.34009, y: -24.790466}
+        - {x: -29.340088, y: -24.790466}
+        - {x: -29.340088, y: -6.7904663}
+        - {x: -43.340088, y: -1.7904663}
+      - - {x: 27.659912, y: 4.2095337}
+        - {x: 21.659912, y: -3.7904663}
+        - {x: 21.659912, y: -24.790466}
+        - {x: 63.659912, y: -24.790466}
+        - {x: 67.65991, y: -23.790466}
+        - {x: 67.65991, y: -6.7904663}
+        - {x: 53.659912, y: 4.2095337}
+    - name: rpg_all_motion_152
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 812
+        width: 236
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.470337, y: -1.7904663}
+        - {x: -62.470337, y: -7.7904663}
+        - {x: -62.470337, y: -24.790466}
+        - {x: -25.470337, y: -24.790466}
+        - {x: -25.470337, y: -6.7904663}
+        - {x: -42.470337, y: -1.7904663}
+      - - {x: 44.529663, y: -13.790466}
+        - {x: 41.529663, y: -15.790466}
+        - {x: 41.529663, y: -21.790466}
+        - {x: 44.529663, y: -24.790466}
+        - {x: 62.529663, y: -24.790466}
+        - {x: 63.529663, y: -23.790466}
+        - {x: 63.529663, y: -15.790466}
+        - {x: 59.529663, y: -13.790466}
+      - - {x: 29.529663, y: 15.209534}
+        - {x: 17.529663, y: 10.209534}
+        - {x: 17.529663, y: -10.790466}
+        - {x: 18.529663, y: -14.790466}
+        - {x: 22.529663, y: -15.790466}
+        - {x: 38.529663, y: -15.790466}
+        - {x: 45.529663, y: -12.790466}
+        - {x: 47.529663, y: -5.7904663}
+        - {x: 47.529663, y: 15.209534}
+      - - {x: -6.470337, y: 26.209534}
+        - {x: -6.470337, y: 11.209534}
+        - {x: 2.529663, y: 11.209534}
+        - {x: 2.529663, y: 26.209534}
+    - name: rpg_all_motion_156
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 679
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_166
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 677
+        width: 171
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.016846, y: 28.2677}
+        - {x: -44.016846, y: 23.2677}
+        - {x: -45.016846, y: 22.2677}
+        - {x: -45.016846, y: -16.7323}
+        - {x: -28.016846, y: -19.7323}
+        - {x: -10.016846, y: -19.7323}
+        - {x: 0.9831543, y: -10.7323}
+        - {x: 0.9831543, y: 19.2677}
+        - {x: -9.016846, y: 28.2677}
+      - - {x: 44.983154, y: 24.2677}
+        - {x: 27.983154, y: 24.2677}
+        - {x: 15.983154, y: 11.2677}
+        - {x: 13.983154, y: -0.7322998}
+        - {x: 13.983154, y: -3.7322998}
+        - {x: 17.983154, y: -6.7323}
+        - {x: 30.983154, y: -6.7323}
+        - {x: 37.983154, y: -5.7323}
+        - {x: 45.983154, y: 3.2677002}
+        - {x: 45.983154, y: 21.2677}
+    - name: rpg_all_motion_171
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 673
+        width: 60
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_173
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 674
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_174
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 674
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_175
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 674
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_176
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 674
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.68940735, y: 19.180084}
+        - {x: -18.689407, y: 3.1800842}
+        - {x: -18.689407, y: -10.819916}
+        - {x: -13.689407, y: -17.819916}
+        - {x: 19.310593, y: -17.819916}
+        - {x: 19.310593, y: 12.180084}
+        - {x: 14.310593, y: 19.180084}
+    - name: rpg_all_motion_177
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 674
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_178
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 674
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_179
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 674
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.3932953, y: 19.180084}
+        - {x: -18.393295, y: 6.180084}
+        - {x: -18.393295, y: -16.819916}
+        - {x: -15.393295, y: -17.819916}
+        - {x: 19.606705, y: -17.819916}
+        - {x: 19.606705, y: 12.180084}
+        - {x: 14.606705, y: 19.180084}
+    - name: rpg_all_motion_180
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 674
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.577759, y: 22.680084}
+        - {x: -9.422241, y: 22.680084}
+        - {x: -16.422241, y: 9.680084}
+        - {x: -16.422241, y: -18.319916}
+        - {x: -9.422241, y: -21.319916}
+        - {x: 13.577759, y: -21.319916}
+        - {x: 17.577759, y: -18.319916}
+        - {x: 17.577759, y: 11.680084}
+    - name: rpg_all_motion_181
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 674
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.0048828, y: 19.180084}
+        - {x: -17.995117, y: 5.180084}
+        - {x: -17.995117, y: -10.819916}
+        - {x: -8.995117, y: -17.819916}
+        - {x: 19.004883, y: -17.819916}
+        - {x: 19.004883, y: 14.180084}
+        - {x: 15.004883, y: 19.180084}
+    - name: rpg_all_motion_182
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 674
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_183
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 674
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_184
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 674
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_185
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 674
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_186
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 674
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_188
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 674
+        width: 101
+        height: 97
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.016235, y: -4.819916}
+        - {x: 7.0162354, y: -19.819916}
+        - {x: 7.0162354, y: -25.819916}
+        - {x: 55.016235, y: -25.819916}
+        - {x: 55.016235, y: -12.819916}
+        - {x: 53.016235, y: -4.819916}
+    - name: rpg_all_motion_190
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 674
+        width: 200
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.251953, y: -4.819916}
+        - {x: 14.251953, y: -7.819916}
+        - {x: 6.251953, y: -19.819916}
+        - {x: 6.251953, y: -25.819916}
+        - {x: 52.251953, y: -25.819916}
+        - {x: 54.251953, y: -23.819916}
+        - {x: 54.251953, y: -14.819916}
+        - {x: 51.251953, y: -4.819916}
+      - - {x: -45.748047, y: 11.180084}
+        - {x: -52.748047, y: 8.180084}
+        - {x: -52.748047, y: -15.819916}
+        - {x: -48.748047, y: -16.819916}
+        - {x: -24.748047, y: -16.819916}
+        - {x: -24.748047, y: 11.180084}
+    - name: rpg_all_motion_192
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 674
+        width: 204
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.139282, y: -1.8199158}
+        - {x: 20.139282, y: -16.819916}
+        - {x: 20.139282, y: -25.819916}
+        - {x: 52.139282, y: -25.819916}
+        - {x: 55.139282, y: -20.819916}
+        - {x: 55.139282, y: -7.819916}
+        - {x: 52.139282, y: -1.8199158}
+      - - {x: -38.860718, y: 27.180084}
+        - {x: -53.860718, y: 18.180084}
+        - {x: -53.860718, y: -15.819916}
+        - {x: -46.860718, y: -20.819916}
+        - {x: -18.860718, y: -20.819916}
+        - {x: -6.860718, y: -14.819916}
+        - {x: -6.860718, y: 20.180084}
+        - {x: -15.860718, y: 27.180084}
+      - - {x: 4.139282, y: 6.180084}
+        - {x: 4.139282, y: -4.819916}
+        - {x: 8.139282, y: -9.819916}
+        - {x: 21.139282, y: -9.819916}
+        - {x: 25.139282, y: -5.819916}
+        - {x: 25.139282, y: 6.180084}
+    - name: rpg_all_motion_193
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 674
+        width: 166
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.322144, y: -4.319916}
+        - {x: 13.322144, y: -19.319916}
+        - {x: 39.322144, y: -19.319916}
+        - {x: 45.322144, y: -18.319916}
+        - {x: 45.322144, y: 11.680084}
+        - {x: 24.322144, y: 11.680084}
+      - - {x: -43.677856, y: 24.680084}
+        - {x: -43.677856, y: 2.6800842}
+        - {x: -41.677856, y: -4.319916}
+        - {x: -15.677856, y: -4.319916}
+        - {x: -15.677856, y: 24.680084}
+      - - {x: -13.677856, y: 29.680084}
+        - {x: -13.677856, y: 10.680084}
+        - {x: -1.6778564, y: 10.680084}
+        - {x: 1.3221436, y: 12.680084}
+        - {x: 1.3221436, y: 26.680084}
+        - {x: 0.32214355, y: 29.680084}
+    - name: rpg_all_motion_194
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 694
+        width: 108
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.625854, y: 3.2640686}
+        - {x: -28.625854, y: 0.2640686}
+        - {x: -28.625854, y: -23.735931}
+        - {x: -25.625854, y: -25.735931}
+        - {x: -2.6258545, y: -25.735931}
+        - {x: -2.6258545, y: 1.2640686}
+        - {x: -8.6258545, y: 3.2640686}
+      - - {x: 1.3741455, y: 26.264069}
+        - {x: -3.6258545, y: 16.264069}
+        - {x: -3.6258545, y: -2.7359314}
+        - {x: 19.374146, y: -2.7359314}
+        - {x: 29.374146, y: 9.264069}
+        - {x: 29.374146, y: 20.264069}
+        - {x: 26.374146, y: 26.264069}
+    - name: rpg_all_motion_196
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_197
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_198
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 536
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_199
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 536
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_200
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_201
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_202
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 553
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_203
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 562
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_204
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 562
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_205
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 553
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_206
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 545
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_207
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_208
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_209
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_210
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 539
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_211
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 536
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_212
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 536
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_217
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 553
+        width: 163
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.116089, y: 18.647003}
+        - {x: -43.11609, y: 3.6470032}
+        - {x: -43.11609, y: -20.352997}
+        - {x: -39.11609, y: -23.352997}
+        - {x: -12.116089, y: -23.352997}
+        - {x: -5.116089, y: 0.6470032}
+        - {x: -5.116089, y: 18.647003}
+      - - {x: 25.883911, y: 21.647003}
+        - {x: 9.883911, y: 12.647003}
+        - {x: 9.883911, y: -11.352997}
+        - {x: 30.883911, y: -11.352997}
+        - {x: 36.88391, y: -9.352997}
+        - {x: 43.88391, y: -1.3529968}
+        - {x: 43.88391, y: 21.647003}
+    - name: rpg_all_motion_220
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 551
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.597412, y: 28.088623}
+        - {x: -27.597412, y: 17.088623}
+        - {x: -27.597412, y: -26.911377}
+        - {x: 26.402588, y: -26.911377}
+        - {x: 28.402588, y: -19.911377}
+        - {x: 28.402588, y: 28.088623}
+    - name: rpg_all_motion_222
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 536
+        width: 60
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_228
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 536
+        width: 226
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.13849, y: 2.6506348}
+        - {x: 34.13849, y: 0.65063477}
+        - {x: 21.138489, y: -14.349365}
+        - {x: 21.138489, y: -23.349365}
+        - {x: 60.13849, y: -23.349365}
+        - {x: 60.13849, y: -7.349365}
+        - {x: 54.13849, y: 2.6506348}
+      - - {x: -57.86151, y: 0.65063477}
+        - {x: -59.86151, y: -0.34936523}
+        - {x: -59.86151, y: -19.349365}
+        - {x: -55.86151, y: -22.349365}
+        - {x: -28.861511, y: -22.349365}
+        - {x: -25.861511, y: -17.349365}
+        - {x: -25.861511, y: -5.349365}
+        - {x: -38.86151, y: 0.65063477}
+      - - {x: 7.138489, y: 8.650635}
+        - {x: 7.138489, y: -1.3493652}
+        - {x: 11.138489, y: -7.349365}
+        - {x: 24.138489, y: -7.349365}
+        - {x: 28.138489, y: -3.3493652}
+        - {x: 28.138489, y: 8.650635}
+    - name: rpg_all_motion_231
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 536
+        width: 206
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.56543, y: -0.34936523}
+        - {x: -49.56543, y: -0.34936523}
+        - {x: -54.56543, y: -5.349365}
+        - {x: -54.56543, y: -21.349365}
+        - {x: -52.56543, y: -23.349365}
+        - {x: -26.56543, y: -23.349365}
+        - {x: -22.56543, y: -19.349365}
+        - {x: -22.56543, y: -4.349365}
+        - {x: -23.56543, y: -1.3493652}
+      - - {x: 39.43457, y: 8.650635}
+        - {x: 24.43457, y: 1.6506348}
+        - {x: 20.43457, y: -11.349365}
+        - {x: 20.43457, y: -20.349365}
+        - {x: 22.43457, y: -23.349365}
+        - {x: 44.43457, y: -23.349365}
+        - {x: 55.43457, y: -17.349365}
+        - {x: 55.43457, y: 8.650635}
+      - - {x: -2.5654297, y: 5.650635}
+        - {x: 7.4345703, y: 5.650635}
+        - {x: 12.43457, y: 6.650635}
+        - {x: 12.43457, y: 24.650635}
+        - {x: -2.5654297, y: 24.650635}
+    - name: rpg_all_motion_240
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 439
+        width: 166
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5000015, y: 0.40180123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.1875, y: 20.592255}
+        - {x: -44.1875, y: -13.407745}
+        - {x: -12.1875, y: -13.407745}
+        - {x: -4.1875, y: 1.5922546}
+        - {x: -4.1875, y: 20.592255}
+      - - {x: 33.8125, y: 4.5922546}
+        - {x: 33.8125, y: -10.407745}
+        - {x: 35.8125, y: -11.407745}
+        - {x: 43.8125, y: -11.407745}
+        - {x: 44.8125, y: -9.407745}
+        - {x: 44.8125, y: 4.5922546}
+    - name: rpg_all_motion_242
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 454
+        width: 118
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45943213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.172485, y: 18.065887}
+        - {x: -31.172485, y: 17.065887}
+        - {x: -31.172485, y: -11.934113}
+        - {x: -30.172485, y: -14.934113}
+        - {x: 0.82751465, y: -14.934113}
+        - {x: 7.8275146, y: -9.934113}
+        - {x: 7.8275146, y: 4.0658875}
+        - {x: -1.1724854, y: 18.065887}
+      - - {x: 16.827515, y: 4.0658875}
+        - {x: 16.827515, y: -5.9341125}
+        - {x: 17.827515, y: -6.9341125}
+        - {x: 20.827515, y: -7.9341125}
+        - {x: 31.827515, y: -7.9341125}
+        - {x: 31.827515, y: 4.0658875}
+    - name: rpg_all_motion_246
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 419
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_249
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 419
+        width: 195
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_250
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 419
+        width: 195
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_251
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 419
+        width: 195
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_253
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 419
+        width: 195
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_254
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 419
+        width: 197
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_255
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 419
+        width: 192
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_257
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 424
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.234131, y: 13.380356}
+        - {x: -16.23413, y: 11.380356}
+        - {x: -16.23413, y: -10.619644}
+        - {x: -12.234131, y: -20.619644}
+        - {x: 14.765869, y: -20.619644}
+        - {x: 17.76587, y: -14.619644}
+        - {x: 17.76587, y: 3.3803558}
+        - {x: 6.765869, y: 13.380356}
+      - - {x: 6.765869, y: 21.380356}
+        - {x: 5.765869, y: 20.380356}
+        - {x: 5.765869, y: 12.380356}
+        - {x: 17.76587, y: 12.380356}
+        - {x: 17.76587, y: 19.380356}
+        - {x: 16.76587, y: 21.380356}
+    - name: rpg_all_motion_271
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 315
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.714233, y: 17.197662}
+        - {x: -25.714233, y: 15.197662}
+        - {x: -25.714233, y: -9.802338}
+        - {x: -23.714233, y: -15.802338}
+        - {x: 4.2857666, y: -15.802338}
+        - {x: 13.285767, y: -8.802338}
+        - {x: 13.285767, y: 3.1976624}
+        - {x: -0.7142334, y: 17.197662}
+      - - {x: 14.285767, y: 9.197662}
+        - {x: 14.285767, y: -1.8023376}
+        - {x: 26.285767, y: -1.8023376}
+        - {x: 26.285767, y: 8.197662}
+        - {x: 23.285767, y: 9.197662}
+    - name: rpg_all_motion_276
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 290
+        width: 195
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_277
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 299
+        width: 145
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.495605, y: 18.730484}
+        - {x: -24.495605, y: 18.730484}
+        - {x: -38.495605, y: 5.730484}
+        - {x: -38.495605, y: -12.269516}
+        - {x: -32.495605, y: -18.269516}
+        - {x: -10.495605, y: -18.269516}
+        - {x: -4.4956055, y: -11.269516}
+        - {x: -4.4956055, y: 10.730484}
+      - - {x: 27.504395, y: -4.269516}
+        - {x: 27.504395, y: -15.269516}
+        - {x: 39.504395, y: -15.269516}
+        - {x: 39.504395, y: -4.269516}
+    - name: rpg_all_motion_279
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 307
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.684814, y: 13.464081}
+        - {x: -15.684814, y: 8.464081}
+        - {x: -16.684814, y: 7.464081}
+        - {x: -16.684814, y: -6.535919}
+        - {x: -8.684814, y: -20.53592}
+        - {x: 14.315186, y: -20.53592}
+        - {x: 17.315186, y: -18.53592}
+        - {x: 17.315186, y: 1.4640808}
+        - {x: 11.315186, y: 13.464081}
+      - - {x: 6.3151855, y: 21.46408}
+        - {x: 6.3151855, y: 14.464081}
+        - {x: 8.315186, y: 12.464081}
+        - {x: 16.315186, y: 12.464081}
+        - {x: 17.315186, y: 13.464081}
+        - {x: 17.315186, y: 21.46408}
+    - name: rpg_all_motion_280
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 290
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_283
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 290
+        width: 203
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_284
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 290
+        width: 187
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_293
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 188
+        width: 122
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_299
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 160
+        width: 223
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_300
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 160
+        width: 213
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_301
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 160
+        width: 197
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_304
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 182
+        width: 59
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41639814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_305
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 160
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_314
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 118
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_318
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 50
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_319
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 50
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_320
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 46
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_321
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 71
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_322
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 53
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_323
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 71
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_324
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 65
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_325
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 46
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_327
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 50
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_328
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 46
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_13
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 955
+        width: 281
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.740784, y: -15.682526}
+        - {x: 53.740784, y: -19.682526}
+        - {x: 53.740784, y: -24.682526}
+        - {x: 56.740784, y: -27.682526}
+        - {x: 74.74078, y: -27.682526}
+        - {x: 74.74078, y: -17.682526}
+        - {x: 65.74078, y: -15.682526}
+      - - {x: -52.259216, y: 0.31747437}
+        - {x: -69.25922, y: 0.31747437}
+        - {x: -74.25922, y: -4.6825256}
+        - {x: -74.25922, y: -23.682526}
+        - {x: -73.25922, y: -25.682526}
+        - {x: -41.259216, y: -25.682526}
+        - {x: -40.259216, y: -21.682526}
+        - {x: -39.259216, y: -13.682526}
+        - {x: -39.259216, y: -6.6825256}
+      - - {x: 19.740784, y: -5.6825256}
+        - {x: 20.740784, y: -7.6825256}
+        - {x: 23.740784, y: -7.6825256}
+        - {x: 25.740784, y: -6.6825256}
+        - {x: 25.740784, y: -3.6825256}
+        - {x: 24.740784, y: -1.6825256}
+        - {x: 21.740784, y: -1.6825256}
+        - {x: 19.740784, y: -2.6825256}
+      - - {x: -24.259216, y: 8.317474}
+        - {x: -24.259216, y: -6.6825256}
+        - {x: -7.2592163, y: -6.6825256}
+        - {x: -7.2592163, y: 8.317474}
+      - - {x: 39.740784, y: 9.317474}
+        - {x: 34.740784, y: 4.3174744}
+        - {x: 34.740784, y: -1.6825256}
+        - {x: 36.740784, y: -6.6825256}
+        - {x: 45.740784, y: -6.6825256}
+        - {x: 48.740784, y: -3.6825256}
+        - {x: 48.740784, y: 7.3174744}
+        - {x: 45.740784, y: 9.317474}
+      - - {x: 55.740784, y: 0.31747437}
+        - {x: 53.740784, y: -1.6825256}
+        - {x: 53.740784, y: -4.6825256}
+        - {x: 55.740784, y: -6.6825256}
+        - {x: 57.740784, y: -6.6825256}
+        - {x: 59.740784, y: -4.6825256}
+        - {x: 59.740784, y: -1.6825256}
+        - {x: 57.740784, y: 0.31747437}
+      - - {x: 45.740784, y: -2.6825256}
+        - {x: 46.740784, y: -4.6825256}
+        - {x: 49.740784, y: -4.6825256}
+        - {x: 51.740784, y: -3.6825256}
+        - {x: 51.740784, y: -0.68252563}
+        - {x: 50.740784, y: 1.3174744}
+        - {x: 47.740784, y: 1.3174744}
+        - {x: 45.740784, y: 0.31747437}
+      - - {x: 26.740784, y: 2.3174744}
+        - {x: 26.740784, y: 0.31747437}
+        - {x: 27.740784, y: -1.6825256}
+        - {x: 30.740784, y: -1.6825256}
+        - {x: 32.740784, y: -0.68252563}
+        - {x: 32.740784, y: 2.3174744}
+        - {x: 30.740784, y: 4.3174744}
+        - {x: 28.740784, y: 4.3174744}
+      - - {x: 33.740784, y: 12.317474}
+        - {x: 30.740784, y: 9.317474}
+        - {x: 30.740784, y: 5.3174744}
+        - {x: 31.740784, y: 3.3174744}
+        - {x: 36.740784, y: 3.3174744}
+        - {x: 38.740784, y: 7.3174744}
+        - {x: 38.740784, y: 11.317474}
+        - {x: 36.740784, y: 12.317474}
+      - - {x: 0.7407837, y: 7.3174744}
+        - {x: 1.7407837, y: 5.3174744}
+        - {x: 9.740784, y: 5.3174744}
+        - {x: 11.740784, y: 6.3174744}
+        - {x: 11.740784, y: 10.317474}
+        - {x: 10.740784, y: 12.317474}
+        - {x: 2.7407837, y: 12.317474}
+        - {x: 0.7407837, y: 11.317474}
+      - - {x: 54.740784, y: 19.317474}
+        - {x: 48.740784, y: 15.317474}
+        - {x: 46.740784, y: 13.317474}
+        - {x: 46.740784, y: 9.317474}
+        - {x: 50.740784, y: 6.3174744}
+        - {x: 55.740784, y: 6.3174744}
+        - {x: 58.740784, y: 7.3174744}
+        - {x: 60.740784, y: 13.317474}
+        - {x: 60.740784, y: 19.317474}
+      - - {x: 63.740784, y: 14.317474}
+        - {x: 62.740784, y: 12.317474}
+        - {x: 62.740784, y: 9.317474}
+        - {x: 64.74078, y: 8.317474}
+        - {x: 67.74078, y: 8.317474}
+        - {x: 68.74078, y: 10.317474}
+        - {x: 68.74078, y: 13.317474}
+        - {x: 66.74078, y: 14.317474}
+      - - {x: 9.740784, y: 25.317474}
+        - {x: 7.7407837, y: 23.317474}
+        - {x: 7.7407837, y: 21.317474}
+        - {x: 9.740784, y: 19.317474}
+        - {x: 7.7407837, y: 18.317474}
+        - {x: 9.740784, y: 11.317474}
+        - {x: 13.740784, y: 9.317474}
+        - {x: 19.740784, y: 9.317474}
+        - {x: 19.740784, y: 19.317474}
+        - {x: 11.740784, y: 25.317474}
+      - - {x: 40.740784, y: 15.317474}
+        - {x: 38.740784, y: 13.317474}
+        - {x: 38.740784, y: 11.317474}
+        - {x: 40.740784, y: 9.317474}
+        - {x: 42.740784, y: 9.317474}
+        - {x: 44.740784, y: 11.317474}
+        - {x: 44.740784, y: 13.317474}
+        - {x: 42.740784, y: 15.317474}
+      - - {x: 59.740784, y: 27.317474}
+        - {x: 59.740784, y: 18.317474}
+        - {x: 67.74078, y: 14.317474}
+        - {x: 74.74078, y: 14.317474}
+        - {x: 74.74078, y: 27.317474}
+      - - {x: 2.7407837, y: 23.317474}
+        - {x: 0.7407837, y: 21.317474}
+        - {x: 0.7407837, y: 19.317474}
+        - {x: 2.7407837, y: 17.317474}
+        - {x: 4.7407837, y: 17.317474}
+        - {x: 6.7407837, y: 19.317474}
+        - {x: 6.7407837, y: 21.317474}
+        - {x: 4.7407837, y: 23.317474}
+      - - {x: 44.740784, y: 33.317474}
+        - {x: 42.740784, y: 31.317474}
+        - {x: 42.740784, y: 29.317474}
+        - {x: 44.740784, y: 27.317474}
+        - {x: 46.740784, y: 27.317474}
+        - {x: 48.740784, y: 29.317474}
+        - {x: 48.740784, y: 31.317474}
+        - {x: 46.740784, y: 33.317474}
+    - name: rpg_all_motion_14
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 954
+        width: 286
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.86926, y: -3.7117004}
+        - {x: -75.86926, y: -4.7117004}
+        - {x: -75.86926, y: -27.7117}
+        - {x: -42.869263, y: -27.7117}
+        - {x: -40.869263, y: -26.7117}
+        - {x: -40.869263, y: -8.7117}
+        - {x: -56.869263, y: -3.7117004}
+      - - {x: -5.8692627, y: -16.7117}
+        - {x: -5.8692627, y: -26.7117}
+        - {x: -3.8692627, y: -27.7117}
+        - {x: 17.130737, y: -27.7117}
+        - {x: 18.130737, y: -25.7117}
+        - {x: 18.130737, y: -20.7117}
+        - {x: 16.130737, y: -16.7117}
+      - - {x: 60.130737, y: -14.7117}
+        - {x: 55.130737, y: -16.7117}
+        - {x: 55.130737, y: -23.7117}
+        - {x: 59.130737, y: -27.7117}
+        - {x: 76.13074, y: -27.7117}
+        - {x: 76.13074, y: -16.7117}
+        - {x: 72.13074, y: -14.7117}
+    - name: rpg_all_motion_15
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 419
+        width: 195
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpg_all_motion_16
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 536
+        width: 234
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.86566, y: -0.34936523}
+        - {x: -61.86566, y: -23.349365}
+        - {x: -28.865662, y: -23.349365}
+        - {x: -28.865662, y: -1.3493652}
+        - {x: -31.865662, y: -0.34936523}
+      - - {x: 25.134338, y: -6.349365}
+        - {x: 16.134338, y: -18.349365}
+        - {x: 16.134338, y: -23.349365}
+        - {x: 62.13434, y: -23.349365}
+        - {x: 62.13434, y: -6.349365}
+        - {x: 61.13434, y: -3.3493652}
+        - {x: 60.13434, y: -2.3493652}
+        - {x: 45.13434, y: -2.3493652}
+    - name: rpg_all_motion_307
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 160
+        width: 79
+        height: 59
+      alignment: 9
+      pivot: {x: 0, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

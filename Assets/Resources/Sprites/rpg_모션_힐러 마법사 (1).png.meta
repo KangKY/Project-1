@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 4029e6571a6d6ad408ba634fd21a460c
+timeCreated: 1459405294
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_0"
+    21300002: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_3"
+    21300004: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_4"
+    21300006: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_5"
+    21300008: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_6"
+    21300010: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_7"
+    21300012: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_8"
+    21300014: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_9"
+    21300016: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_10"
+    21300018: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_11"
+    21300020: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_14"
+    21300022: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_15"
+    21300024: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_16"
+    21300026: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_17"
+    21300028: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_20"
+    21300030: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_26"
+    21300032: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_27"
+    21300034: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_30"
+    21300036: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_35"
+    21300038: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_36"
+    21300040: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_37"
+    21300042: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_38"
+    21300044: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_42"
+    21300046: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_43"
+    21300048: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_47"
+    21300050: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_48"
+    21300052: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_50"
+    21300054: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_12"
+    21300056: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_1"
+    21300058: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_2"
+    21300060: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_13"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1070
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33}
+        - {x: -22.5, y: -29}
+        - {x: -16.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 20}
+        - {x: 15.5, y: 33}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1066
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33}
+        - {x: -22.5, y: -29}
+        - {x: -16.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 20}
+        - {x: 15.5, y: 33}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_15"
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 906
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10.5}
+        - {x: -25, y: 10.5}
+        - {x: -30, y: 8.5}
+        - {x: -30, y: -32.5}
+        - {x: -24, y: -36.5}
+        - {x: 12, y: -36.5}
+        - {x: 23, y: -26.5}
+        - {x: 23, y: 2.5}
+        - {x: 22, y: 6.5}
+      - - {x: -1, y: 36.5}
+        - {x: -5, y: 27.5}
+        - {x: -5, y: 19.5}
+        - {x: -2, y: 15.5}
+        - {x: 28, y: 15.5}
+        - {x: 30, y: 17.5}
+        - {x: 30, y: 36.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_16"
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 903
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 22.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -25.5, y: -18.5}
+        - {x: -21.5, y: -22.5}
+        - {x: 13.5, y: -22.5}
+        - {x: 25.5, y: -12.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 3.5, y: 22.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_30"
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 741
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 22.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -25.5, y: -18.5}
+        - {x: -21.5, y: -22.5}
+        - {x: 13.5, y: -22.5}
+        - {x: 25.5, y: -12.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 3.5, y: 22.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_38"
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 590
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 16.5}
+        - {x: -28.5, y: 11.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -27.5, y: -16.5}
+        - {x: 27.5, y: -16.5}
+        - {x: 28.5, y: -14.5}
+        - {x: 28.5, y: 13.5}
+        - {x: 12.5, y: 16.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_43"
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 424
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 8}
+        - {x: 13.5, y: 18}
+        - {x: -25.5, y: 18}
+        - {x: -28.5, y: 12}
+        - {x: -28.5, y: -18}
+        - {x: 28.5, y: -18}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_48"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 233
+        width: 224
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 1.5}
+        - {x: -111, y: -10.5}
+        - {x: -112, y: -22.5}
+        - {x: -112, y: -36.5}
+        - {x: -58, y: -36.5}
+        - {x: -53, y: -32.5}
+        - {x: -53, y: -0.5}
+        - {x: -58, y: 1.5}
+      - - {x: 84, y: -16.5}
+        - {x: 78, y: -17.5}
+        - {x: 75, y: -23.5}
+        - {x: 75, y: -34.5}
+        - {x: 77, y: -36.5}
+        - {x: 107, y: -36.5}
+        - {x: 112, y: -28.5}
+        - {x: 112, y: -20.5}
+        - {x: 108, y: -16.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_50"
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 249
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 16.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -27.5, y: -16.5}
+        - {x: 28.5, y: -16.5}
+        - {x: 28.5, y: 3.5}
+        - {x: 21.5, y: 16.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 82
+        width: 224
+        height: 73
+      alignment: 9
+      pivot: {x: 0.505, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.880005, y: -16.5}
+        - {x: 77.880005, y: -17.5}
+        - {x: 74.880005, y: -23.5}
+        - {x: 74.880005, y: -34.5}
+        - {x: 76.880005, y: -36.5}
+        - {x: 106.880005, y: -36.5}
+        - {x: 110.880005, y: -30.5}
+        - {x: 110.880005, y: -19.5}
+        - {x: 107.880005, y: -16.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 390
+        width: 224
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: -16.5}
+        - {x: 77, y: -17.5}
+        - {x: 74, y: -23.5}
+        - {x: 74, y: -34.5}
+        - {x: 76, y: -36.5}
+        - {x: 106, y: -36.5}
+        - {x: 111, y: -28.5}
+        - {x: 111, y: -20.5}
+        - {x: 107, y: -16.5}
+      - - {x: -56, y: 13.5}
+        - {x: -71, y: 13.5}
+        - {x: -90, y: 11.5}
+        - {x: -106, y: -2.5}
+        - {x: -106, y: -32.5}
+        - {x: -83, y: -35.5}
+        - {x: -48, y: -35.5}
+        - {x: -42, y: -24.5}
+        - {x: -42, y: 4.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 571
+        width: 224
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94, y: 4.5}
+        - {x: -101, y: -14.5}
+        - {x: -101, y: -35.5}
+        - {x: -100, y: -36.5}
+        - {x: -41, y: -36.5}
+        - {x: -40, y: -35.5}
+        - {x: -40, y: 4.5}
+      - - {x: 62, y: 7.5}
+        - {x: 61, y: 2.5}
+        - {x: 61, y: -12.5}
+        - {x: 64, y: -14.5}
+        - {x: 92, y: -14.5}
+        - {x: 98, y: -4.5}
+        - {x: 98, y: 3.5}
+        - {x: 94, y: 7.5}
+    - name: "rpg_\uBAA8\uC158_\uD790\uB7EC \uB9C8\uBC95\uC0AC (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 730
+        width: 224
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 25.5}
+        - {x: -76, y: 6.5}
+        - {x: -76, y: -35.5}
+        - {x: -27, y: -35.5}
+        - {x: -27, y: 17.5}
+        - {x: -40, y: 25.5}
+      - - {x: 29, y: 10.5}
+        - {x: 26, y: 8.5}
+        - {x: 26, y: -15.5}
+        - {x: 30, y: -26.5}
+        - {x: 47, y: -26.5}
+        - {x: 48, y: -23.5}
+        - {x: 48, y: 6.5}
+        - {x: 44, y: 10.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
