@@ -27,8 +27,6 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
 public class GPGSMng : Singleton<GPGSMng>
 {
-   
-
 
     /// <summary>
     /// 리더보드 아이디 값

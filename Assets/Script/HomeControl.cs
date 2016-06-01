@@ -14,16 +14,13 @@ public class HomeControl : MonoBehaviour {
     public GameObject Button_Ranking;
     public GameObject Button_Achieve;
     public GameObject Button_Setting;
-    public GameObject LoadingScene;
-    public GameObject LoadingText;
+
 
     // 에드몹 광고 인스턴스
     public static BannerView bannerView;
     string textPath = "Assets/Resources/";
 
     public AudioClip yap_sound;
-
-    private float percent;
 
     // Use this for initialization
     void Start () {
@@ -118,26 +115,4 @@ public class HomeControl : MonoBehaviour {
                 break;
         }
     }
-
-    public void LoadLevel()
-    {
-        StartCoroutine(LevelCoroutine());
-    }
-    public IEnumerator LevelCoroutine()
-    {
-        
-        AsyncOperation async = SceneManager.LoadSceneAsync(2);
-        
-        while(!async.isDone)
-        {
-            LoadingScene.SetActive(true);
-            percent = (async.progress / 0.9f) * 100;
-           
-            LoadingText.GetComponent<Text>().text = percent.ToString("N0") + "%";
-            
-            yield return null;
-        }
-      
-    }
-
 }

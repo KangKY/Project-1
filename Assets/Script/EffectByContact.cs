@@ -19,7 +19,6 @@ public class EffectByContact : MonoBehaviour {
         else
             score_text_effect.GetComponent<Text>().text = "+2";
       
-
         Effect_delete.timerForDelete = 0.0f;
         Effect_delete.is_show = true;
         score_text_effect.SetActive(true);

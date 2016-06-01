@@ -6,12 +6,9 @@ public class BlockMove : MonoBehaviour {
     // Objects
     private PlayerMain player = null;
     private PlayerMain player2 = null;
-    
     private GameControl gameControl = null;
 
-
-    public GameObject explode = null;
-    
+    public GameObject explode = null;    
     public int speed;
 
     Vector2 velocity;
@@ -84,8 +81,6 @@ public class BlockMove : MonoBehaviour {
                     this.player.anim.Stop();
                     this.player2.anim.SetFloat("Dead", 0.2f);
                 }
-
-
 
                 // 충돌 이펙트!
                 OnExplode();

@@ -16,6 +16,10 @@ public class PlayerMain : MonoBehaviour
     public static bool is_perfect_jump_Up = false;
     public static bool is_perfect_jump_Down = false;
     public static bool ten_point_jump = false;
+    public static float JUMP_HEIGHT_MAX = 2.0f;//점프 최대치
+    public float JUMP_HEIGHT;//점프 높이
+
+    public float JUMP_KEY_RELEASE_REDUCE;//점프 후 감속도
     public enum UI_Button
     {
         NONE = -1,
@@ -29,9 +33,7 @@ public class PlayerMain : MonoBehaviour
     /// 점프 관련 변수들
     /// </summary>
    
-    public float JUMP_HEIGHT;//점프 높이
-    public static float JUMP_HEIGHT_MAX = 2.0f;//점프 최대치
-    public float JUMP_KEY_RELEASE_REDUCE;//점프 후 감속도
+    
 
     private float step_timer = 0.0f;//경과 시간
     public bool is_landed = false;//착지했는가
@@ -257,6 +259,15 @@ public class PlayerMain : MonoBehaviour
             this.PassEnemy();
         }
 
+        // Test Source for Recording
+        /*if (this.name == "Player1" && Input.GetKeyDown(KeyCode.LeftArrow))
+            UpDownKey(0);
+        else if (this.name == "Player1" && Input.GetKeyUp(KeyCode.LeftArrow))
+            UpDownKey(1);
+        if (this.name == "Player2" && Input.GetKeyDown(KeyCode.RightArrow))
+            UpDownKey(0);
+        else if (this.name == "Player2" && Input.GetKeyUp(KeyCode.LeftArrow))
+            UpDownKey(1);*/
 
         this.step_timer += Time.deltaTime;//경과 시간 진행
 

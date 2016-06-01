@@ -22,7 +22,7 @@ Material:
         second:
           m_Texture: {fileID: 2800000, guid: cf1eb6f9d1a32ec42b5fe6de3db2cba6, type: 3}
           m_Scale: {x: 2.5, y: 0.99}
-          m_Offset: {x: 0, y: 0}
+          m_Offset: {x: 10.489341, y: 0}
       data:
         first:
           name: _BumpMap
@@ -118,10 +118,6 @@ Material:
         second: 15
       data:
         first:
-          name: _UseUIAlphaClip
-        second: 0
-      data:
-        first:
           name: _Parallax
         second: 0.02
       data:
@@ -160,6 +156,10 @@ Material:
         first:
           name: _InvFade
         second: 0.01
+      data:
+        first:
+          name: _UseUIAlphaClip
+        second: 0
     m_Colors:
       data:
         first:

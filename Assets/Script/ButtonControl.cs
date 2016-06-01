@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
@@ -36,6 +37,9 @@ public class ButtonControl : MonoBehaviour {
     public static float FX_Sound_Volume = 1.0f;
     public static bool is_donation = false;
 
+    public GameObject LoadingScene;
+    public GameObject LoadingText;
+    private float percent;
     GameControl gameControl;
     string textPath = "Assets/Resources/";
 
@@ -54,11 +58,12 @@ public class ButtonControl : MonoBehaviour {
     /// <param name="button"></param>
     public void UIButtonClick(int button)
     {
-        /*if(gameState != Game_state.GAME)
+#if !UNITY_EDITOR
+        if(gameState != Game_state.GAME)
         {
             GameObject.Find("Effect_Sound").GetComponent<Effect_Sound>().Button_Sound();
-        }*/
-        
+        }
+#endif
         switch (gameState)
         {
 
@@ -107,7 +112,6 @@ public class ButtonControl : MonoBehaviour {
                         Pause_Btn.spriteState = st;
                     }
                 }
-
                 break;
             case Game_state.OPTION:
                 
@@ -161,7 +165,6 @@ public class ButtonControl : MonoBehaviour {
                     soundData = BGM_Sound_Volume + "\t" + FX_Sound_Volume;
                     WriteData("sound",soundData);
                 }
-                
                 break;
             case Game_state.OVER:
                 
@@ -180,8 +183,8 @@ public class ButtonControl : MonoBehaviour {
                 }
                 else if (Button_Pos.RIGHT == (Button_Pos)button)
                 {
-            
-                    SceneManager.LoadScene("Main");
+                    LoadLevel();
+                    //SceneManager.LoadScene("Main");
                 }
                 break;
         }
@@ -224,7 +227,6 @@ public class ButtonControl : MonoBehaviour {
                 case "sound":
                         StreamWriter sw = new StreamWriter(File.Create(textPath + "set_text.txt"));
 
-                        //sw.Dispose();
                         sw.WriteLine(Data);
                         sw.Flush();
                         sw.Close();
@@ -464,4 +466,25 @@ public class ButtonControl : MonoBehaviour {
 
     }
 
+
+    public void LoadLevel()
+    {
+        StartCoroutine(LevelCoroutine());
+    }
+    public IEnumerator LevelCoroutine()
+    {
+
+        AsyncOperation async = SceneManager.LoadSceneAsync(2);
+
+        while (!async.isDone)
+        {
+            LoadingScene.SetActive(true);
+            percent = (async.progress / 0.9f) * 100;
+
+            LoadingText.GetComponent<Text>().text = percent.ToString("N0") + "%";
+
+            yield return null;
+        }
+
+    }
 }

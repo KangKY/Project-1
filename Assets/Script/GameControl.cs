@@ -25,8 +25,6 @@ public class GameControl : MonoBehaviour
 {
     // 플레이 횟수
     private static int Play_count = 0;
-    // 플레이 가능한지?
-    public static bool Can_play = true;
     // 게임 바퀴 수( 5스테이지까지 간 횟수 )
     public static int game_turn_count = 0;
 
@@ -96,6 +94,7 @@ public class GameControl : MonoBehaviour
     public GameObject Score_Result;
     public static uint score_result;
     public MemoryPool Jump_Effect;
+    public GameObject score_effect;
 
 
     // 더블 점프 카운트
@@ -119,6 +118,9 @@ public class GameControl : MonoBehaviour
 
     // 사운드
     public AudioClip dead_sound;
+    public AudioClip turn_sound;
+
+
 
     void Awake()
     {
@@ -137,9 +139,11 @@ public class GameControl : MonoBehaviour
 
         score_result = 0;
         helper_text = new string[3];
+        game_turn_count = 0;
 
-        Application.targetFrameRate = 60;
         QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 60;
+        
 
         // Unity Ads
         
@@ -162,17 +166,16 @@ public class GameControl : MonoBehaviour
         if(HomeControl.home_start)
             GameObject.Find("BGM").GetComponent<BGM>().PlayGameBGM();
 
-
-        this.Btn_Control = this.gameObject.GetComponent<ButtonControl>();
         
         this.ButttonForTest = this.gameObject.GetComponent<ButtonForTest>();
-
+        
         this.player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMain>();
         this.player2 = GameObject.FindGameObjectWithTag("Player2").GetComponent<PlayerMain>();
 
         // 저장한 볼륨값 대입
         this.player.GetComponent<AudioSource>().volume = ButtonControl.FX_Sound_Volume;
         this.player2.GetComponent<AudioSource>().volume = ButtonControl.FX_Sound_Volume;
+        this.GetComponent<AudioSource>().volume = ButtonControl.FX_Sound_Volume;
 
         // 랜덤 캐릭터 생성
         this.Rand_Character();
@@ -285,7 +288,7 @@ public class GameControl : MonoBehaviour
     void Update()
     {
         // 게임의 첫 시작일 경우
-        if(SetStartClass.is_first)
+        /*if(SetStartClass.is_first)
         {
             helper_text[0] = helper_01;
             helper_text[1] = helper_02;
@@ -297,7 +300,7 @@ public class GameControl : MonoBehaviour
             helper_popup.SetActive(true);
             Time.timeScale = 0;
             SetStartClass.is_first = false;
-        }
+        }*/
            
         if (Play_count == Ads_Count && !ButtonControl.is_donation)
         {
@@ -387,7 +390,7 @@ public class GameControl : MonoBehaviour
             
             bg_color.a = 0.5f;
             this.bg_Change[this.level_control.level].SetActive(true);
-            this.bg_Change[this.level_control.level].transform.position = new Vector3(0, 0, 1);
+            this.bg_Change[this.level_control.level].transform.position = new Vector3(0, 0, 1f);
             this.cur_BG = All_Stages[this.level_control.level].Stages;
             
 
@@ -407,12 +410,26 @@ public class GameControl : MonoBehaviour
             this.cur_level = this.level_control.level;
            
             if(this.cur_level != 0)
-                this.cur_BG = All_Stages[this.level_control.level-1].Stages;
+            {
+                this.cur_BG = All_Stages[this.level_control.level - 1].Stages;
+                this.player.JUMP_KEY_RELEASE_REDUCE++;
+                this.player2.JUMP_KEY_RELEASE_REDUCE++;
+            }
+                
 
             else
             { 
                 this.cur_BG = All_Stages[4].Stages;
                 game_turn_count++;
+                this.GetComponent<AudioSource>().clip = turn_sound;
+                this.GetComponent<AudioSource>().Play();
+                score_effect.GetComponent<Text>().text = "+50";
+                score_effect.SetActive(true);
+                score_result += 50;
+                Effect_delete.timerForDelete = 0.0f;
+                Effect_delete.is_show = true;
+                this.player.JUMP_KEY_RELEASE_REDUCE = 13;
+                this.player2.JUMP_KEY_RELEASE_REDUCE = 13;
                 if (game_turn_count == 1)
                     this.UnLockAchievement(20);
             }
@@ -438,7 +455,7 @@ public class GameControl : MonoBehaviour
 
         //Application.platform == RuntimePlatform.Android && 
         // 안드로이드 기기에서 뒤로가기버튼 시
-        if (Input.GetKeyUp(KeyCode.Escape) && Time.timeScale == 1)
+        if (Application.platform == RuntimePlatform.Android && Input.GetKeyUp(KeyCode.Escape) && Time.timeScale == 1)
         {
             Time.timeScale = 0;
             this.Over_BG.SetActive(true);
@@ -510,13 +527,11 @@ public class GameControl : MonoBehaviour
         if (!this.is_collider)
         {
             bg_color.a -= Time.deltaTime * 0.5f;
-
             if (bg_color.a <= 0)
             {
                 if (this.cur_level != 0)
                 {
-                    this.bg_Change[this.level_control.level - 1].SetActive(false);
-                    
+                    this.bg_Change[this.level_control.level - 1].SetActive(false); 
                 }
                 else
                 {
@@ -526,9 +541,11 @@ public class GameControl : MonoBehaviour
                 this.bg_Change[this.level_control.level].transform.position = new Vector3(0, 0, -0.5f);
 
                 is_fade_out = false;
-
+                
             }
-            for(int i = 0; i < cur_BG.Length; i++)
+               
+
+            for (int i = 0; i < cur_BG.Length; i++)
                 this.cur_BG[i].GetComponent<Renderer>().material.SetColor("_TintColor", bg_color);
                 
         }
