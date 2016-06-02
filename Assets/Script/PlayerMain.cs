@@ -20,6 +20,7 @@ public class PlayerMain : MonoBehaviour
     public float JUMP_HEIGHT;//점프 높이
 
     public float JUMP_KEY_RELEASE_REDUCE;//점프 후 감속도
+    public static float JUMP_SPEED_REDUCE;
     public enum UI_Button
     {
         NONE = -1,
@@ -108,6 +109,7 @@ public class PlayerMain : MonoBehaviour
 
         // 시작 위치에서의 Y값 저장( 점프 높이 
         this.origin_position = this.transform.localPosition;
+        JUMP_SPEED_REDUCE = JUMP_KEY_RELEASE_REDUCE;
     }
 
     /*
@@ -120,8 +122,6 @@ public class PlayerMain : MonoBehaviour
     {
         this.is_landed = false;
        
-        do
-        {
             player_now_position = this.transform.position;
             player_under_position = player_now_position + Vector3.down * 1.0f;
             
@@ -129,7 +129,7 @@ public class PlayerMain : MonoBehaviour
             if (!Physics2D.Linecast(player_now_position, player_under_position,
                 1 << LayerMask.NameToLayer(this.BG)))//두 개 사이에 아무것도 없을 때
             {
-                break;//아무것도 하지 않고 do while문을 빠져나감
+                return;//아무것도 하지 않고 do while문을 빠져나감
             }
 
             //두개 사이에 뭔가 있을 때 아래의 처리가 실행
@@ -137,7 +137,7 @@ public class PlayerMain : MonoBehaviour
             {
                 if (this.step_timer < Time.deltaTime * 1.0f)// 경과 시간이 3.0f미만이라면
                 {
-                    break;
+                return;
                 }
             }
             // 두 위치 사이에 뭔가 있고 JUMP 직후가 아닐 때만 아래가 실행
@@ -159,7 +159,6 @@ public class PlayerMain : MonoBehaviour
             this.GetComponent<Rigidbody2D>().gravityScale = 1.0f;
             this.on_enemy = false;
             ten_point_jump = false;
-        } while (false);
     }
 
     /*

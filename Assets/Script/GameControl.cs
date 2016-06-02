@@ -288,7 +288,7 @@ public class GameControl : MonoBehaviour
     void Update()
     {
         // 게임의 첫 시작일 경우
-        /*if(SetStartClass.is_first)
+        if(SetStartClass.is_first)
         {
             helper_text[0] = helper_01;
             helper_text[1] = helper_02;
@@ -300,7 +300,7 @@ public class GameControl : MonoBehaviour
             helper_popup.SetActive(true);
             Time.timeScale = 0;
             SetStartClass.is_first = false;
-        }*/
+        }
            
         if (Play_count == Ads_Count && !ButtonControl.is_donation)
         {
@@ -319,18 +319,22 @@ public class GameControl : MonoBehaviour
         /// <summary>
         /// 업적 : 게임 점수에 관련한 업적 언락
         /// </summary>
-        if (score_result == 100)
+        if (score_result > 100)
+        {
             this.UnLockAchievement(10);
-        else if (score_result == 300)
-            this.UnLockAchievement(11);
-        else if (score_result == 500)
-            this.UnLockAchievement(12);
-        else if (score_result == 800)
-            this.UnLockAchievement(13);
-        else if (score_result == 900)
-            this.UnLockAchievement(14);
-        else if (score_result == 1000)
-            this.UnLockAchievement(15);
+            if (score_result > 300)
+                this.UnLockAchievement(11);
+            if (score_result > 500)
+                this.UnLockAchievement(12);
+            if (score_result > 800)
+                this.UnLockAchievement(13);
+            if (score_result > 900)
+                this.UnLockAchievement(14);
+            if (score_result > 1000)
+                this.UnLockAchievement(15);
+        }
+            
+       
         /*-------------------------------*/
 
         /// <summary>
@@ -340,11 +344,11 @@ public class GameControl : MonoBehaviour
         {
             this.UnLockAchievement(7);
         }
-        else if(Double_cnt == 50)
+        if(Double_cnt == 50)
         {
             this.UnLockAchievement(8);
         }
-        else if(Double_cnt == 100)
+        if(Double_cnt == 100)
         {
             this.UnLockAchievement(9);
         }
@@ -428,8 +432,9 @@ public class GameControl : MonoBehaviour
                 score_result += 50;
                 Effect_delete.timerForDelete = 0.0f;
                 Effect_delete.is_show = true;
-                this.player.JUMP_KEY_RELEASE_REDUCE = 13;
-                this.player2.JUMP_KEY_RELEASE_REDUCE = 13;
+                PlayerMain.JUMP_SPEED_REDUCE++;
+                this.player.JUMP_KEY_RELEASE_REDUCE = PlayerMain.JUMP_SPEED_REDUCE;
+                this.player2.JUMP_KEY_RELEASE_REDUCE = PlayerMain.JUMP_SPEED_REDUCE;
                 if (game_turn_count == 1)
                     this.UnLockAchievement(20);
             }
