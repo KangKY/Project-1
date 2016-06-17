@@ -22,6 +22,7 @@ public class EffectByContact : MonoBehaviour {
         Effect_delete.timerForDelete = 0.0f;
         Effect_delete.is_show = true;
         score_text_effect.SetActive(true);
+        score_effect.SetActive(false);
         score_effect.SetActive(true);
     }
 }

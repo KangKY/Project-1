@@ -21,7 +21,7 @@ Material:
         second:
           m_Texture: {fileID: 2800000, guid: 66047ed1deec49549b0b6aa2e809e6a1, type: 3}
           m_Scale: {x: 0.94, y: 1}
-          m_Offset: {x: 0.95092195, y: 0}
+          m_Offset: {x: 2.516105, y: 0}
       data:
         first:
           name: _BumpMap
@@ -143,4 +143,4 @@ Material:
       data:
         first:
           name: _TintColor
-        second: {r: 0.5, g: 0.5, b: 0.5, a: -0.0075215856}
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.32378253}

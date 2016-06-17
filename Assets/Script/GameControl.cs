@@ -85,6 +85,7 @@ public class GameControl : MonoBehaviour
     public StageClass[] All_Stages;
     private bool is_fade_out;
     private Color bg_color;
+    private Renderer render;
 
     // 랜덤 캐릭터 생성
     public RuntimeAnimatorController[] anim_ctr;
@@ -120,7 +121,7 @@ public class GameControl : MonoBehaviour
     public AudioClip dead_sound;
     public AudioClip turn_sound;
 
-
+    MaterialPropertyBlock mpb;
 
     void Awake()
     {
@@ -143,10 +144,10 @@ public class GameControl : MonoBehaviour
 
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 60;
-        
 
+        mpb = new MaterialPropertyBlock();
         // Unity Ads
-        
+
 #if UNITY_ANDROID
         Advertisement.Initialize("1074804", false);
 #endif
@@ -206,7 +207,7 @@ public class GameControl : MonoBehaviour
         this.cur_BG = All_Stages[0].Stages;
                                                                                                                                                                                                                                    
         for (int i = 0; i < cur_BG.Length; i++)
-            this.cur_BG[i].GetComponent<Renderer>().material.SetColor("_TintColor", bg_color);
+            this.cur_BG[i].GetComponent<Renderer>().sharedMaterial.SetColor("_TintColor", bg_color);
 
 
         this.ButttonForTest = this.gameObject.GetComponent<ButtonForTest>();
@@ -335,7 +336,7 @@ public class GameControl : MonoBehaviour
         }
             
        
-        /*-------------------------------*/
+      
 
         /// <summary>
         /// 업적 : 동시 점프 횟수에 관련한 업적 언락
@@ -359,7 +360,7 @@ public class GameControl : MonoBehaviour
         // 업적 : 동시 점프를 한 번도 누르지 않고 마지막 스테이지 도달
         else if (this.level_control.level == 4 && this.Double_cnt == 0)
             this.UnLockAchievement(6);
-        /*-------------------------------*/
+        
 
 
         /// <summary>
@@ -396,11 +397,17 @@ public class GameControl : MonoBehaviour
             this.bg_Change[this.level_control.level].SetActive(true);
             this.bg_Change[this.level_control.level].transform.position = new Vector3(0, 0, 1f);
             this.cur_BG = All_Stages[this.level_control.level].Stages;
-            
 
-          
+           /* mpb.SetColor("_TintColor", bg_color);
             for (int i = 0; i < cur_BG.Length; i++)
-                this.cur_BG[i].GetComponent<Renderer>().material.SetColor("_TintColor", bg_color);
+            {
+                
+                this.cur_BG[i].GetComponent<Renderer>().SetPropertyBlock(mpb);
+            }*/
+               
+
+            for (int i = 0; i < cur_BG.Length; i++)
+                this.cur_BG[i].GetComponent<Renderer>().sharedMaterial.SetColor("_TintColor", bg_color);
 
 
             nNumber_1 += 2;
@@ -548,10 +555,14 @@ public class GameControl : MonoBehaviour
                 is_fade_out = false;
                 
             }
-               
 
+           /* for (int i = 0; i < cur_BG.Length; i++)
+            {
+                mpb.SetColor("_TintColor", bg_color);
+                this.cur_BG[i].GetComponent<Renderer>().SetPropertyBlock(mpb);
+            }*/
             for (int i = 0; i < cur_BG.Length; i++)
-                this.cur_BG[i].GetComponent<Renderer>().material.SetColor("_TintColor", bg_color);
+                this.cur_BG[i].GetComponent<Renderer>().sharedMaterial.SetColor("_TintColor", bg_color);
                 
         }
         yield return null;
@@ -635,7 +646,7 @@ public class GameControl : MonoBehaviour
             Resources.UnloadAsset(Btn_Left.image.sprite);
 
             Btn_Left.image.sprite = Resources.Load<Sprite>("Sprites/06 game over/btn_quit_01_basic");
-            Btn_Center.image.sprite = Resources.Load<Sprite>("Sprites/04 setting/btn_home_01_basic");
+            Btn_Center.image.sprite = Resources.Load<Sprite>("Sprites/06 game over/btn_ranking_01_basic");
             Btn_Right.image.sprite = Resources.Load<Sprite>("Sprites/06 game over/btn_restart_01_basic");
 
             SpriteState st = new SpriteState();
@@ -643,7 +654,7 @@ public class GameControl : MonoBehaviour
             Btn_Left.spriteState = st;
 
 
-            st.pressedSprite = Resources.Load<Sprite>("Sprites/04 setting/btn_home_02_pressed");
+            st.pressedSprite = Resources.Load<Sprite>("Sprites/06 game over/btn_ranking_02_pressed");
             Btn_Center.spriteState = st;
 
             st.pressedSprite = Resources.Load<Sprite>("Sprites/06 game over/btn_restart_02_pressed");

@@ -21,13 +21,7 @@ public class MapCreator : MonoBehaviour
         //current = this.gameControl.cur_BG;
         if (moveSpeed != 0 && !this.gameControl.is_collider)
         {
-            // GC Alloc 현저히 줄게 하려면 if문 사용 X
-            //foreach (GameObject bg_factor in current)
-            //{
-            /*    bg_factor.GetComponent<Renderer>().material.mainTextureOffset
-                    = new Vector2(Time.time * moveSpeed, 0f);
-            }*/
-        
+            // GC Alloc 현저히 줄게 하려면 if문 사용 X     
             render.sharedMaterial.mainTextureOffset
                     = new Vector2(Time.time * moveSpeed, 0f);
             

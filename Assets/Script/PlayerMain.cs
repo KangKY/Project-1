@@ -34,47 +34,35 @@ public class PlayerMain : MonoBehaviour
     /// 점프 관련 변수들
     /// </summary>
    
-    
-
-    private float step_timer = 0.0f;//경과 시간
     public bool is_landed = false;//착지했는가
     public bool is_double_jmp = false;
     public bool on_enemy = false;
     public bool is_touch = false;
-    private Vector2 origin_position;// 원래 포지션
     public bool jump = false;
-    protected bool is_pass = false;
-
-
+    public static MemoryPool pool = new MemoryPool();
     public GameObject effect;
-    
-    private GameControl gameControl;
-
+    public int ran;
+    public uint cmp_score;
     public Animator anim;
     public AudioClip[] Perfect_Sound;
     public AudioClip Nomarl_Sound;
 
     private STEP step = STEP.NONE;
     private STEP next_step = STEP.NONE;
-
-
-
-    public static MemoryPool pool = new MemoryPool();
-
-    // 착지 조금 전에 점프를 눌렀을 경우 점프가 되게 하는 멤버 변수들
+    private float step_timer = 0.0f;//경과 시간
+    private Vector2 origin_position;// 원래 포지션
     private float click_timer = -1.0f;// 버튼이 눌린 후의 시간.
     private float CLICK_GRACE_TIME = 0.5f;// 점프하고 싶은 의사를 받아들일 시간
-
-    protected Vector3 player_now_position;
-    protected Vector3 player_under_position;
-
-    public int ran;
-   
-    protected uint score = 100;
-    public uint cmp_score;
-
     private string BG;
     private string Enemy;
+    private GameControl gameControl;
+    // 착지 조금 전에 점프를 눌렀을 경우 점프가 되게 하는 멤버 변수들
+
+    protected bool is_pass = false;
+    protected Vector3 player_now_position;
+    protected Vector3 player_under_position;
+    protected uint score = 100;
+
 
     void Awake()
     {
@@ -122,43 +110,42 @@ public class PlayerMain : MonoBehaviour
     {
         this.is_landed = false;
        
-            player_now_position = this.transform.position;
-            player_under_position = player_now_position + Vector3.down * 1.0f;
+        player_now_position = this.transform.position;
+        player_under_position = player_now_position + Vector3.down * 1.0f;
             
 
-            if (!Physics2D.Linecast(player_now_position, player_under_position,
-                1 << LayerMask.NameToLayer(this.BG)))//두 개 사이에 아무것도 없을 때
-            {
-                return;//아무것도 하지 않고 do while문을 빠져나감
-            }
+        if (!Physics2D.Linecast(player_now_position, player_under_position,
+            1 << LayerMask.NameToLayer(this.BG)))//두 개 사이에 아무것도 없을 때
+        {
+            return;//아무것도 하지 않고 do while문을 빠져나감
+        }
 
-            //두개 사이에 뭔가 있을 때 아래의 처리가 실행
-            if (this.step == STEP.JUMP)// 점프 상태라면,
+        //두개 사이에 뭔가 있을 때 아래의 처리가 실행
+        if (this.step == STEP.JUMP)// 점프 상태라면,
+        {
+            if (this.step_timer < Time.deltaTime * 1.0f)// 경과 시간이 3.0f미만이라면
             {
-                if (this.step_timer < Time.deltaTime * 1.0f)// 경과 시간이 3.0f미만이라면
-                {
                 return;
-                }
             }
-            // 두 위치 사이에 뭔가 있고 JUMP 직후가 아닐 때만 아래가 실행
-            switch(this.name)
-            {
-                case "Player1":
-                    is_perfect_jump_Up = false;
+        }
+        // 두 위치 사이에 뭔가 있고 JUMP 직후가 아닐 때만 아래가 실행
+        switch(this.name)
+        {
+            case "Player1":
+                is_perfect_jump_Up = false;
              
-                    break;
-                case "Player2":
-                    is_perfect_jump_Down = false;
-                    break;
-            }
+                break;
+            case "Player2":
+                is_perfect_jump_Down = false;
+                break;
+        }
 
-
-            this.anim.SetFloat("Speed", 0.0f);
-            this.is_landed = true;
+        this.anim.SetFloat("Speed", 0.0f);
+        this.is_landed = true;
             
-            this.GetComponent<Rigidbody2D>().gravityScale = 1.0f;
-            this.on_enemy = false;
-            ten_point_jump = false;
+        this.GetComponent<Rigidbody2D>().gravityScale = 1.0f;
+        this.on_enemy = false;
+        ten_point_jump = false;
     }
 
     /*

@@ -183,8 +183,9 @@ public class ButtonControl : MonoBehaviour {
                 }
                 else if (Button_Pos.RIGHT == (Button_Pos)button)
                 {
-                    LoadLevel();
-                    //SceneManager.LoadScene("Main");
+                    //LoadLevel();
+                    
+                    SceneManager.LoadScene("Main");
                 }
                 break;
         }
