@@ -596,7 +596,7 @@ MonoBehaviour:
   Button_Ranking: {fileID: 452869290}
   Button_Achieve: {fileID: 1575347771}
   Button_Setting: {fileID: 50300164}
-  yap_sound: {fileID: 8300000, guid: 262b4690d4fae06488c7a21c30f0db0b, type: 3}
+  yap_sound: {fileID: 8300000, guid: fc16db8c78114824587990e5889deee6, type: 3}
 --- !u!82 &379289688
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game_clip: {fileID: 8300000, guid: 2a4154612c56d3c46af509ef8939e52c, type: 3}
-  home_clip: {fileID: 8300000, guid: 8216d99ec74930849aa0b9d15490ea39, type: 3}
+  home_clip: {fileID: 8300000, guid: 1b283c4e844d34d4a9bd5dbcd31cdbef, type: 3}
 --- !u!82 &1502860299
 AudioSource:
   m_ObjectHideFlags: 0

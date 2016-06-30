@@ -58,10 +58,7 @@ public class BlockMove : MonoBehaviour {
         {
            
             if (other.CompareTag("Player") || other.CompareTag("Player2"))
-            {
-
-                this.gameControl.GetComponent<AudioSource>().clip = gameControl.dead_sound;
-                this.gameControl.GetComponent<AudioSource>().Play();
+            { 
                
                 this.gameControl.ClearObstacle();
 
@@ -70,16 +67,42 @@ public class BlockMove : MonoBehaviour {
 
                 // 충돌 boolean 변수 설정
                 this.gameControl.is_collider = true;
+
+                this.player.GetComponent<AudioSource>().Stop();
+                this.player2.GetComponent<AudioSource>().Stop();
                 // 해당하는 애니메이션 실행
                 if (other.CompareTag("Player"))
                 {
                     this.player.anim.SetFloat("Dead", 0.2f);
                     this.player2.anim.Stop();
+                    
+                    
+                    // 죽을 때 사운드 : 남녀 구분 및 랜덤 호출
+                    if (this.player.ran == 0 || this.player.ran == 1)
+                    {
+                        this.gameControl.GetComponent<AudioSource>().clip = gameControl.man_dead_clip[Random.Range(0, 2)];
+                        this.gameControl.GetComponent<AudioSource>().Play();
+                    }
+                    else if (this.player.ran == 2 || this.player.ran == 3)
+                    {
+                        this.gameControl.GetComponent<AudioSource>().clip = gameControl.woman_dead_clip[Random.Range(0, 2)];
+                        this.gameControl.GetComponent<AudioSource>().Play();
+                    }
                 }
                 else
                 {
                     this.player.anim.Stop();
                     this.player2.anim.SetFloat("Dead", 0.2f);
+                    if (this.player2.ran == 0 || this.player2.ran == 1)
+                    {
+                        this.gameControl.GetComponent<AudioSource>().clip = gameControl.man_dead_clip[Random.Range(0, 2)];
+                        this.gameControl.GetComponent<AudioSource>().Play();
+                    }
+                    else if (this.player2.ran == 2 || this.player2.ran == 3)
+                    {
+                        this.gameControl.GetComponent<AudioSource>().clip = gameControl.woman_dead_clip[Random.Range(0, 2)];
+                        this.gameControl.GetComponent<AudioSource>().Play();
+                    }
                 }
 
                 // 충돌 이펙트!

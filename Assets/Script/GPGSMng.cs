@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using GooglePlayGames;
 using System;
-
+using GooglePlayGames.BasicApi;
 
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
@@ -32,8 +32,15 @@ public class GPGSMng : Singleton<GPGSMng>
     /// 리더보드 아이디 값
     /// </summary>
     /// 
-
+    
     public const String leader_board = "CgkIlNi06e8CEAIQCA";
+
+    /*GooglePlayGames.BasicApi.UIStatus log_data;
+    GooglePlayGames.BasicApi.UIStatus test()
+    {
+        log_data = GooglePlayGames.BasicApi.UIStatus.Timeout;
+        return log_data;
+    }*/
     /// <summary>
     /// 현재 로그인 중인지 체크
     /// </summary>
@@ -136,9 +143,8 @@ public class GPGSMng : Singleton<GPGSMng>
                    }
                });
             }
-
-
         }
+
 
         /// <summary>
         /// 해당하는 리더보드 UI를 보여줍니다.
@@ -147,7 +153,8 @@ public class GPGSMng : Singleton<GPGSMng>
         {
             if (Social.localUser.authenticated)
             {
-                ((PlayGamesPlatform)Social.Active).ShowLeaderboardUI(leader_board);
+                //((PlayGamesPlatform)Social.Active).ShowLeaderboardUI(leader_board,);
+                ((PlayGamesPlatform)Social.Active).ShowLeaderboardUI(leader_board);  
             }
         }
 
@@ -181,172 +188,178 @@ public class GPGSMng : Singleton<GPGSMng>
         {
             if (Social.localUser.authenticated)
             {
-                switch (nKey)
-                {
-                    case 0:
-                        // 달릴시간이다! 게임 첫 시작!
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_its_time_to_run_yaaaap, 100.0f,
-                           (bool success) => {
-                               if (success) { }
-                               else { }
-                           });
-                        break;
-                    case 1:
-                        // 1 스테이지에서 바로 죽을 때..
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_come_out_person_who_said_easy, 100.0f,
-                          (bool success) => {
-                              if (success) { }
-                              else { }
-                          });
-                        break;
-                    case 2:
-                        // 10회 게임
-                        PlayGamesPlatform.Instance.IncrementAchievement(
-                            Yaaaap.GooglePlay.achievement_im_yaaaap_beginner, 1, (bool success) => {
-                                if (success) { }
-                                else { }
-                            });
+            switch (nKey)
+            {
+                case 0:
+                    // 달릴시간이다! 게임 첫 시작!
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_its_time_to_run_yaaaap, 100.0f,
+                       (bool success) => {
+                           if (success) { }
+                           else { }
+                       });
+                    break;
+                case 1:
+                    // 1 스테이지에서 바로 죽을 때..
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_come_out_person_who_said_easy, 100.0f,
+                      (bool success) => {
+                          if (success) { }
+                          else { }
+                      });
+                    break;
+                case 2:
+                    // 10회 게임
+                    PlayGamesPlatform.Instance.IncrementAchievement(
+                        Yaaaap.GooglePlay.achievement_im_yaaaap_beginner, 1, (bool success) => {
+                            if (success) { }
+                            else { }
+                        });
 
-                        break;
-                    case 3:
-                        // 30회 게임
-                        PlayGamesPlatform.Instance.IncrementAchievement(
-                            Yaaaap.GooglePlay.achievement_im_running_man, 1, (bool success) => {
-                                if (success) { }
-                                else { }
-                            });
-                        break;
-                    case 4:
-                        // 100회 게임
-                        PlayGamesPlatform.Instance.IncrementAchievement(
-                            Yaaaap.GooglePlay.achievement_im_marathoner, 1, (bool success) => {
-                                if (success) { }
-                                else { }
-                            });
-                        break;
-                    case 5:
-                        // 동시 점프 한번도 없이 2번째 스테이지 도달
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_staggered_you_and_me, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 6:
-                        // 동시 점프 한번도 없이 4번째 스테이지 도달
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_we_should_break_up, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 7:
-                        // 동시 점프 10회 성공
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_this_is_teamwork, 100.0f,
-                         (bool success) => {
-                             if (success) { }
-                             else { }
-                         });
-                        break;
-                    case 8:
-                        // 동시 점프 50회 성공
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_im_you_you_are_me, 100.0f,
-                       (bool success) =>{
-                        if (success){}
-                           else{}});
-                        break;
-                    case 9:
-                        // 동시 점프 100회 성공
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_fusion, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
+                    break;
+                case 3:
+                    // 30회 게임
+                    PlayGamesPlatform.Instance.IncrementAchievement(
+                        Yaaaap.GooglePlay.achievement_im_running_man, 1, (bool success) => {
+                            if (success) { }
+                            else { }
+                        });
+                    break;
+                case 4:
+                    // 100회 게임
+                    PlayGamesPlatform.Instance.IncrementAchievement(
+                        Yaaaap.GooglePlay.achievement_im_marathoner, 1, (bool success) => {
+                            if (success) { }
+                            else { }
+                        });
+                    break;
+                case 5:
+                    // 동시 점프 한번도 없이 2번째 스테이지 도달
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_staggered_you_and_me, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 6:
+                    // 동시 점프 한번도 없이 4번째 스테이지 도달
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_we_should_break_up, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 7:
+                    // 동시 점프 10회 성공
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_this_is_teamwork, 100.0f,
+                     (bool success) => {
+                         if (success) { }
+                         else { }
+                     });
+                    break;
+                case 8:
+                    // 동시 점프 50회 성공
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_im_you_you_are_me, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { } });
+                    break;
+                case 9:
+                    // 동시 점프 100회 성공
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_fusion, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
 
-                        break;
-                    case 10:
-                        // 점수 100점 달성
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_its_now_being_adapted, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 11:
-                        // 점수 300점 달성
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_adaptation_is_over, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 12:
-                        // 점수 500점 달성
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_run_is_not_over, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 13:
-                        // 점수 800점 달성
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_you_are_invincible_man, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 14:
-                        // 점수 900점 달성
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_you_are_legend, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 15:
-                        // 점수 1000점 달성
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_you_are_yaaaap_conqueror, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 16:
-                        // 성 스테이지 입장
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_castle, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
+                    break;
+                case 10:
+                    // 점수 100점 달성
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_its_now_being_adapted, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 11:
+                    // 점수 300점 달성
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_adaptation_is_over, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 12:
+                    // 점수 500점 달성
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_run_is_not_over, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 13:
+                    // 점수 800점 달성
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_you_are_invincible_man, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 14:
+                    // 점수 900점 달성
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_you_are_legend, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 15:
+                    // 점수 1000점 달성
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_you_are_yaaaap_conqueror, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 16:
+                    // 성 스테이지 입장
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_castle, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
 
-                    case 17:
+                case 17:
 
-                        // 하늘 스테이지 입장
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_sky, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 18:
-                        // 바다 스테이지 입장
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_sea, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 19:
-                        // 불지옥 스테이지 입장
-                        Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_hell, 100.0f,
-                       (bool success) => {
-                           if (success) { }
-                           else { }
-                       });
-                        break;
-                    case 20:
+                    // 하늘 스테이지 입장
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_sky, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 18:
+                    // 바다 스테이지 입장
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_sea, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 19:
+                    // 불지옥 스테이지 입장
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_welcome_hell, 100.0f,
+                   (bool success) => {
+                       if (success) { }
+                       else { }
+                   });
+                    break;
+                case 20:
+                    Social.ReportProgress(Yaaaap.GooglePlay.achievement_long_time_no_see, 100.0f,
+                        (bool success) =>
+                        {
+                            if (success) { }
+                            else { }
+                        });
                         break;
 
                 }

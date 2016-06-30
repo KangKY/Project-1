@@ -21,7 +21,7 @@ Material:
         second:
           m_Texture: {fileID: 2800000, guid: 7fe33c4962ef04c418b981700c0313f7, type: 3}
           m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0.35681152, y: 0}
+          m_Offset: {x: 0.37750855, y: 0}
       data:
         first:
           name: _BumpMap
@@ -104,6 +104,30 @@ Material:
         second: 0.078125
       data:
         first:
+          name: _Stencil
+        second: 0
+      data:
+        first:
+          name: _StencilComp
+        second: 8
+      data:
+        first:
+          name: _StencilOp
+        second: 0
+      data:
+        first:
+          name: _StencilReadMask
+        second: 255
+      data:
+        first:
+          name: _StencilWriteMask
+        second: 255
+      data:
+        first:
+          name: _ColorMask
+        second: 15
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -142,30 +166,6 @@ Material:
         first:
           name: _InvFade
         second: 0.01
-      data:
-        first:
-          name: _Stencil
-        second: 0
-      data:
-        first:
-          name: _StencilComp
-        second: 8
-      data:
-        first:
-          name: _StencilOp
-        second: 0
-      data:
-        first:
-          name: _StencilReadMask
-        second: 255
-      data:
-        first:
-          name: _StencilWriteMask
-        second: 255
-      data:
-        first:
-          name: _ColorMask
-        second: 15
       data:
         first:
           name: _UseUIAlphaClip

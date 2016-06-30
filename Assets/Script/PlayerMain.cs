@@ -45,7 +45,7 @@ public class PlayerMain : MonoBehaviour
     public uint cmp_score;
     public Animator anim;
     public AudioClip[] Perfect_Sound;
-    public AudioClip Nomarl_Sound;
+    public AudioClip[] Nomarl_Sound;
 
     private STEP step = STEP.NONE;
     private STEP next_step = STEP.NONE;
@@ -246,14 +246,14 @@ public class PlayerMain : MonoBehaviour
         }
 
         // Test Source for Recording
-        /*if (this.name == "Player1" && Input.GetKeyDown(KeyCode.LeftArrow))
+        if (this.name == "Player1" && Input.GetKeyDown(KeyCode.LeftArrow))
             UpDownKey(0);
         else if (this.name == "Player1" && Input.GetKeyUp(KeyCode.LeftArrow))
             UpDownKey(1);
         if (this.name == "Player2" && Input.GetKeyDown(KeyCode.RightArrow))
             UpDownKey(0);
         else if (this.name == "Player2" && Input.GetKeyUp(KeyCode.LeftArrow))
-            UpDownKey(1);*/
+            UpDownKey(1);
 
         this.step_timer += Time.deltaTime;//경과 시간 진행
 
@@ -273,18 +273,18 @@ public class PlayerMain : MonoBehaviour
                             this.PerfectJump_Effect();
                         }
                         else
-                            this.GetComponent<AudioSource>().clip = Nomarl_Sound;
+                            this.GetComponent<AudioSource>().clip = Nomarl_Sound[Random.Range(0, 2)];
                         break;
                     case "Player2":
                         if (is_perfect_jump_Down)
                         {
                             this.GetComponent<AudioSource>().clip = Perfect_Sound[Random.Range(0, 2)];
                             this.PerfectJump_Effect();
-
+   
                           
                         }
                         else
-                            this.GetComponent<AudioSource>().clip = Nomarl_Sound;
+                            this.GetComponent<AudioSource>().clip = Nomarl_Sound[Random.Range(0, 2)];
                         break;
                 }
 

@@ -118,10 +118,24 @@ public class GameControl : MonoBehaviour
 
 
     // 사운드
-    public AudioClip dead_sound;
+    //public AudioClip dead_sound;
     public AudioClip turn_sound;
 
-    MaterialPropertyBlock mpb;
+    public AudioClip normal_man_clip_0;
+    public AudioClip normal_man_clip_1;
+
+    public AudioClip normal_woman_clip_0;
+    public AudioClip normal_woman_clip_1;
+
+    public AudioClip perfact_man_clip_0;
+    public AudioClip perfact_man_clip_1;
+
+    public AudioClip perfact_woman_clip_0;
+    public AudioClip perfact_woman_clip_1;
+
+    public AudioClip[] man_dead_clip;
+    public AudioClip[] woman_dead_clip;
+
 
     void Awake()
     {
@@ -145,7 +159,7 @@ public class GameControl : MonoBehaviour
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 60;
 
-        mpb = new MaterialPropertyBlock();
+       
         // Unity Ads
 
 #if UNITY_ANDROID
@@ -616,6 +630,35 @@ public class GameControl : MonoBehaviour
         {
             this.player2.ran = Random.Range(0, this.anim_ctr.Length);
         } while (this.player.ran == this.player2.ran);
+
+        // Jump sound setting : 남녀 구분 및 랜덤 호출
+        if (this.player.ran == 0 || this.player.ran == 1) { 
+            this.player.Nomarl_Sound[0] = normal_man_clip_0;
+            this.player.Nomarl_Sound[1] = normal_man_clip_1;
+            this.player.Perfect_Sound[0] = perfact_man_clip_0;
+            this.player.Perfect_Sound[1] = perfact_man_clip_1;
+        }
+        else if (this.player.ran == 2 || this.player.ran == 3) {
+            this.player.Nomarl_Sound[0] = normal_woman_clip_0;
+            this.player.Nomarl_Sound[1] = normal_woman_clip_1;
+            this.player.Perfect_Sound[0] = perfact_woman_clip_0;
+            this.player.Perfect_Sound[1] = perfact_woman_clip_1;
+        }
+
+        if (this.player2.ran == 0 || this.player2.ran == 1)
+        {
+            this.player2.Nomarl_Sound[0] = normal_man_clip_0;
+            this.player2.Nomarl_Sound[1] = normal_man_clip_1;
+            this.player2.Perfect_Sound[0] = perfact_man_clip_0;
+            this.player2.Perfect_Sound[1] = perfact_man_clip_1;
+        }
+        else if (this.player2.ran == 2 || this.player2.ran == 3)
+        {
+            this.player2.Nomarl_Sound[0] = normal_woman_clip_0;
+            this.player2.Nomarl_Sound[1] = normal_woman_clip_1;
+            this.player2.Perfect_Sound[0] = perfact_woman_clip_0;
+            this.player2.Perfect_Sound[1] = perfact_woman_clip_1;
+        }
 
         this.player.anim.runtimeAnimatorController = this.anim_ctr[this.player.ran];
         this.player2.anim.runtimeAnimatorController = this.anim_ctr[this.player2.ran];

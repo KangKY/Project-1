@@ -86,6 +86,11 @@ namespace GooglePlayGames
             this.mConfiguration = configuration;
         }
 
+        internal void ShowLeaderboardUI(string leader_board, UIStatus timeout)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Gets or sets a value indicating whether debug logs are enabled. This property
         /// may be set before calling <see cref="Activate" /> method.

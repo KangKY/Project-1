@@ -63,7 +63,7 @@ namespace GooglePlayGames.BasicApi
         /// <summary>Timed out while awaiting the result.</summary>
         Timeout = -5,
       }
-
+        
       /// <summary> Native response status codes for UI operations.</status>
       /// <remarks> These values are returned by the native SDK API.
       /// </remarks>

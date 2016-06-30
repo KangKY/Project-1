@@ -10,8 +10,6 @@ public class ButtonForTest : MonoBehaviour {
     //private bool Stop_CreateEnemy = false;
 
     private GameObject[] cur_BG;
-    private PlayerMain player;
-    private PlayerMain player2;
     private MapCreator mapCreator;
 
     public GameObject back;
@@ -35,22 +33,9 @@ public class ButtonForTest : MonoBehaviour {
 
         this.gameControl =
           GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
-        
 
-        //this.velo = GameObject.Find("velo");
-        //this.height = GameObject.Find("height");
     }
 
-    public void OnInitialize()
-    {
-        track_velocity = 0;
-        near_velocity = 0;
-        back_velocity = 0;
-
-        near.GetComponent<Text>().text = near_velocity.ToString();
-        track.GetComponent<Text>().text = track_velocity.ToString();
-        back.GetComponent<Text>().text = back_velocity.ToString();
-    }
 
     public void WriteData(string strData)
     {// \t 탭으로 구분
@@ -68,18 +53,6 @@ public class ButtonForTest : MonoBehaviour {
     {
         this.gameControl =
          GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControl>();
-
-        this.player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMain>();
-        this.player2 = GameObject.FindGameObjectWithTag("Player2").GetComponent<PlayerMain>();
-
-        this.player.JUMP_HEIGHT = this.player.JUMP_HEIGHT + jumpHeight;
-        this.player.JUMP_KEY_RELEASE_REDUCE = this.player.JUMP_KEY_RELEASE_REDUCE + velocity;
-
-        this.player2.JUMP_HEIGHT = this.player2.JUMP_HEIGHT + jumpHeight;
-        this.player2.JUMP_KEY_RELEASE_REDUCE = this.player2.JUMP_KEY_RELEASE_REDUCE + velocity;
-
-        this.velo.GetComponent<Text>().text = velocity.ToString();
-        this.height.GetComponent<Text>().text = jumpHeight.ToString();
 
         if (this.on_off)
         {
@@ -122,21 +95,6 @@ public class ButtonForTest : MonoBehaviour {
                         switch (n)
                         {
                             case 0:
-                                back_velocity = int.Parse(word);
-                                break;
-                            case 1:
-                                track_velocity = int.Parse(word);
-                                break;
-                            case 2:
-                                near_velocity = int.Parse(word);
-                                break;
-                            case 3:
-                                velocity = int.Parse(word);
-                                break;
-                            case 4:
-                                jumpHeight = int.Parse(word);
-                                break;
-                            case 5:
                                 this.on_off = bool.Parse(word);
 
                                 break;
@@ -185,8 +143,8 @@ public class ButtonForTest : MonoBehaviour {
                 }
                 
                 break;
-            case 1:
-                /*
+            /*case 1:
+                
                 this.cur_BG = GameObject.FindGameObjectsWithTag(this.gameControl.bg_Change[this.gameControl.level_control.level].name);
 
                 foreach (GameObject bg_factor in cur_BG)
@@ -196,7 +154,7 @@ public class ButtonForTest : MonoBehaviour {
                 }
                 back_velocity++;
                 back.GetComponent<Text>().text = back_velocity.ToString();
-                    break;*/
+                    break;
             case 2:
 
                 //GameObject.Find("Background2").GetComponent<MapCreator>().moveSpeed += 0.1f;
@@ -265,7 +223,7 @@ public class ButtonForTest : MonoBehaviour {
                 }
                 back_velocity--;
                 //back.GetComponent<Text>().text = back_velocity.ToString();
-                break;*/
+                break;
             case 9:
                 this.cur_BG = GameObject.FindGameObjectsWithTag(this.gameControl.bg_Change[this.gameControl.level_control.level].name);
                 foreach (GameObject bg_factor in cur_BG)
@@ -293,16 +251,12 @@ public class ButtonForTest : MonoBehaviour {
                 }
                 near_velocity--;
                 near.GetComponent<Text>().text = near_velocity.ToString();
-                break;  
+                break;  */
         }
             string testStr;
-            testStr = "\t" + back_velocity +
-                    "\t" + track_velocity +
-                    "\t" + near_velocity +
-                    "\t" + velocity +
-                    "\t" + jumpHeight +
-                    "\t" + this.gameControl.Collider_OnOff
-                    ;
-            this.WriteData(testStr);
+            testStr = "" + this.gameControl.Collider_OnOff;
+
+
+        this.WriteData(testStr);
     }
 }
