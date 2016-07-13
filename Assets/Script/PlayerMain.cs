@@ -246,14 +246,23 @@ public class PlayerMain : MonoBehaviour
         }
 
         // Test Source for Recording
-        if (this.name == "Player1" && Input.GetKeyDown(KeyCode.LeftArrow))
+
+        if (this.name == "Player1" && Input.GetKeyDown(KeyCode.Joystick2Button6)) 
             UpDownKey(0);
-        else if (this.name == "Player1" && Input.GetKeyUp(KeyCode.LeftArrow))
+        else if (this.name == "Player1" && Input.GetKeyUp(KeyCode.Joystick2Button6))
             UpDownKey(1);
-        if (this.name == "Player2" && Input.GetKeyDown(KeyCode.RightArrow))
+        if (this.name == "Player2" && Input.GetKeyDown(KeyCode.Joystick2Button5))
             UpDownKey(0);
-        else if (this.name == "Player2" && Input.GetKeyUp(KeyCode.LeftArrow))
+        else if (this.name == "Player2" && Input.GetKeyUp(KeyCode.Joystick2Button5))
             UpDownKey(1);
+        if(Input.GetKeyDown(KeyCode.Joystick2Button10))
+        {
+            UpDownKey(2);
+        }
+        else if(Input.GetKeyUp(KeyCode.Joystick2Button10))
+        {
+            UpDownKey(1);
+        }
 
         this.step_timer += Time.deltaTime;//경과 시간 진행
 

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 //using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
 using UnityEngine.Advertisements;
-
+using GamepadInput;
 
 
 
@@ -23,11 +23,12 @@ public struct StageClass
 
 public class GameControl : MonoBehaviour
 {
+    GameObject myEventSystem;
     // 플레이 횟수
     private static int Play_count = 0;
     // 게임 바퀴 수( 5스테이지까지 간 횟수 )
     public static int game_turn_count = 0;
-
+    
     // 도움말 창
     public GameObject helper_popup;
     public Text help_popup_text;
@@ -115,8 +116,8 @@ public class GameControl : MonoBehaviour
     public ButtonForTest ButttonForTest = null;
     public Text Text_Collider;
     public bool Collider_OnOff;
-
-
+    GamepadState state;
+    public GameObject cancle;
     // 사운드
     //public AudioClip dead_sound;
     public AudioClip turn_sound;
@@ -150,8 +151,8 @@ public class GameControl : MonoBehaviour
             pool[i] = new MemoryPool(); 
             pool[i].Create(Obstacle[i], 8);
         }
-        
 
+        Collider_OnOff = true;
         score_result = 0;
         helper_text = new string[3];
         game_turn_count = 0;
@@ -176,14 +177,16 @@ public class GameControl : MonoBehaviour
 
     void Start()
     {
+      
         Play_count++;
         ButtonControl.gameState = Game_state.GAME;
         if(HomeControl.home_start)
             GameObject.Find("BGM").GetComponent<BGM>().PlayGameBGM();
 
-        
-        this.ButttonForTest = this.gameObject.GetComponent<ButtonForTest>();
-        
+        Btn_Control = this.gameObject.GetComponent<ButtonControl>();
+
+
+        myEventSystem = GameObject.Find("EventSystem");
         this.player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMain>();
         this.player2 = GameObject.FindGameObjectWithTag("Player2").GetComponent<PlayerMain>();
 
@@ -223,14 +226,14 @@ public class GameControl : MonoBehaviour
         for (int i = 0; i < cur_BG.Length; i++)
             this.cur_BG[i].GetComponent<Renderer>().sharedMaterial.SetColor("_TintColor", bg_color);
 
-
+        /*this.ButttonForTest = this.gameObject.GetComponent<ButtonForTest>();
         this.ButttonForTest = this.gameObject.GetComponent<ButtonForTest>();
         this.ButttonForTest.ParseData();
-        this.ButttonForTest.Initialize();
+        this.ButttonForTest.Initialize();*/
         this.Score_txt.GetComponent<Text>().text = "0";
 
 
-
+       
         startCroutines();
 
         System.GC.Collect();
@@ -302,8 +305,28 @@ public class GameControl : MonoBehaviour
 
     void Update()
     {
+        state = GamePad.GetState((GamePad.Index)2);
+        
+        if (state.Back)
+            BackBehavior();
+
+        if (helper_popup.activeSelf && Input.GetKeyUp(KeyCode.Joystick2Button0))
+        {
+            this.StopUIKey(3);
+            myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(cancle);
+            
+            //myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().currentSelectedGameObject.GetComponent<Button>().Select();
+        }
+
+        if (Pop_Up_UI.activeSelf)
+        {
+            
+            if (myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().currentSelectedGameObject)
+                myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().currentSelectedGameObject.GetComponent<Button>().Select();    
+        }
+
         // 게임의 첫 시작일 경우
-        if(SetStartClass.is_first)
+        if (SetStartClass.is_first)
         {
             helper_text[0] = helper_01;
             helper_text[1] = helper_02;
@@ -314,7 +337,7 @@ public class GameControl : MonoBehaviour
             Ads_Count = Random.Range(7, 12);
             helper_popup.SetActive(true);
             Time.timeScale = 0;
-            SetStartClass.is_first = false;
+            SetStartClass.is_first = false;        
         }
            
         if (Play_count == Ads_Count && !ButtonControl.is_donation)
@@ -481,14 +504,23 @@ public class GameControl : MonoBehaviour
 
         //Application.platform == RuntimePlatform.Android && 
         // 안드로이드 기기에서 뒤로가기버튼 시
-        if (Application.platform == RuntimePlatform.Android && Input.GetKeyUp(KeyCode.Escape) && Time.timeScale == 1)
+        if (Application.platform == RuntimePlatform.Android && Input.GetKeyUp(KeyCode.Escape))
         {
+            BackBehavior();
+        }
+        
+    }
+
+    public void BackBehavior()
+    {
+        if(Time.timeScale == 1) { 
             Time.timeScale = 0;
             this.Over_BG.SetActive(true);
             Pop_Up_UI.SetActive(true);
         }
-        
     }
+
+
 
     /// <summary>
     /// 리더보드에 점수 세팅
@@ -675,7 +707,8 @@ public class GameControl : MonoBehaviour
         this.Over_BG.SetActive(true);
         this.Game_Over.SetActive(true);
         //this.is_collider = false;
-     
+       
+
         if (UnityAds_On)
         {
             OnShowUnityAds();

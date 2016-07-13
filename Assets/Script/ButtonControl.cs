@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
-
+using GamepadInput;
 public enum Game_state
 {
     NONE = -1,
@@ -42,7 +42,7 @@ public class ButtonControl : MonoBehaviour {
     private float percent;
     GameControl gameControl;
     string textPath = "Assets/Resources/";
-
+    GamepadState state;
     void Start()
     {
         GPGSMng.GetInstance.InitializeGPGS();
@@ -51,7 +51,33 @@ public class ButtonControl : MonoBehaviour {
         useGUILayout = false;
     }
    
-    
+    void Update()
+    {
+        state = GamePad.GetState((GamePad.Index)2);
+
+        if (state.A)
+            UIButtonClick(2);
+
+        if (ButtonControl.gameState == Game_state.OVER)
+        {
+            if (state.LeftShoulder)
+                UIButtonClick(0);
+
+            if (state.RightShoulder)
+                UIButtonClick(1);
+        }
+        if (ButtonControl.gameState == Game_state.OPTION)
+        {
+            if (state.LeftShoulder)
+                UIButtonClick(0);
+
+            if (state.RightShoulder)
+                UIButtonClick(1);
+        }
+    }
+
+
+
     /// <summary>
     /// 게임 상태에 따른 버튼의 동작
     /// </summary>
